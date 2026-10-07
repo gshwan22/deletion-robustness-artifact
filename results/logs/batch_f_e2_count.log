@@ -1,0 +1,53 @@
+  gist hub    never   : emax=0.998±0.002  C_r=0.0  (366s)
+  gist hub    fixed05 : emax=0.018±0.001  C_r=13.0  (1452s)
+  gist hub    fixed10 : emax=0.033±0.003  C_r=7.0  (2258s)
+  gist hub    fixed15 : emax=0.056±0.005  C_r=5.0  (2968s)
+  gist hub    fixed20 : emax=0.097±0.003  C_r=3.0  (3587s)
+  gist hub    fixed25 : emax=0.170±0.006  C_r=2.0  (4146s)
+  gist hub    mass15  : emax=0.012±0.002  C_r=12.0  (5228s)
+  gist hub    mass30  : emax=0.024±0.001  C_r=6.0  (5971s)
+  gist random never   : emax=0.039±0.002  C_r=0.0  (6211s)
+  gist random fixed05 : emax=0.009±0.000  C_r=13.0  (6766s)
+  gist random fixed10 : emax=0.009±0.000  C_r=7.0  (7184s)
+  gist random fixed15 : emax=0.010±0.001  C_r=5.0  (7552s)
+  gist random fixed20 : emax=0.012±0.001  C_r=3.0  (7882s)
+  gist random fixed25 : emax=0.013±0.002  C_r=2.0  (8185s)
+  gist random mass15  : emax=0.011±0.001  C_r=5.0  (8554s)
+  gist random mass30  : emax=0.013±0.001  C_r=2.0  (8854s)
+  sift hub    never   : emax=0.103±0.008  C_r=0.0  (8972s)
+  sift hub    fixed05 : emax=0.000±0.000  C_r=13.0  (9163s)
+  sift hub    fixed10 : emax=0.000±0.000  C_r=7.0  (9331s)
+  sift hub    fixed15 : emax=0.001±0.000  C_r=5.0  (9489s)
+  sift hub    fixed20 : emax=0.001±0.000  C_r=3.0  (9638s)
+  sift hub    fixed25 : emax=0.002±0.000  C_r=2.0  (9782s)
+  sift hub    mass15  : emax=0.000±0.000  C_r=8.0  (9954s)
+  sift hub    mass30  : emax=0.001±0.000  C_r=4.0  (10108s)
+===== e2 요약: (C_r, emax) 프런티어 — 동일 C_r에서 mass < fixed 이면 조기재구축 효과가 아님 =====
+  [gist hub]
+     never     C_r=0.0  emax=0.998
+     fixed05   C_r=13.0  emax=0.018
+     fixed10   C_r=7.0  emax=0.033
+     fixed15   C_r=5.0  emax=0.056
+     fixed20   C_r=3.0  emax=0.097
+     fixed25   C_r=2.0  emax=0.170
+     mass15    C_r=12.0  emax=0.012
+     mass30    C_r=6.0  emax=0.024
+  [gist random]
+     never     C_r=0.0  emax=0.039
+     fixed05   C_r=13.0  emax=0.009
+     fixed10   C_r=7.0  emax=0.009
+     fixed15   C_r=5.0  emax=0.010
+     fixed20   C_r=3.0  emax=0.012
+     fixed25   C_r=2.0  emax=0.013
+     mass15    C_r=5.0  emax=0.011
+     mass30    C_r=2.0  emax=0.013
+  [sift hub]
+     never     C_r=0.0  emax=0.103
+     fixed05   C_r=13.0  emax=0.000
+     fixed10   C_r=7.0  emax=0.000
+     fixed15   C_r=5.0  emax=0.001
+     fixed20   C_r=3.0  emax=0.001
+     fixed25   C_r=2.0  emax=0.002
+     mass15    C_r=8.0  emax=0.000
+     mass30    C_r=4.0  emax=0.001
+[done] 10108s

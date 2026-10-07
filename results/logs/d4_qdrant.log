@@ -1,0 +1,14 @@
+nohup: 입력 무시
+/home/kisti_platform/Desktop/Work_SH/ANN-Percolation/src/d4_qdrant.py:10: DeprecationWarning: `recreate_collection` method is deprecated and will be removed in the future. Use `collection_exists` to check collection existence and `create_collection` instead.
+  cl.recreate_collection("annperc", vectors_config=VectorParams(size=d,distance=Distance.EUCLID))
+  upsert 0/100000 (3s)
+  upsert 20000/100000 (4s)
+  upsert 40000/100000 (5s)
+  upsert 60000/100000 (7s)
+  upsert 80000/100000 (8s)
+  f=0.0 recall=1.000
+  [tombstone] f=0.3 recall=1.000
+  [post-vacuum] f=0.3 recall=1.000
+  [tombstone] f=0.6 recall=1.000
+  [post-vacuum] f=0.6 recall=1.000
+[done]

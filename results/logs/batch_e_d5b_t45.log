@@ -1,0 +1,5 @@
+  s0 hubmass45 emax=0.046 rebuilds=2 (94s)
+  s1 hubmass45 emax=0.049 rebuilds=2 (187s)
+  s2 hubmass45 emax=0.050 rebuilds=2 (280s)
+===== d5b: gist 혼합 hubmass45 = emax 0.048 / r2.0 (비교: fixed20 0.057/r2, hm30 0.025/r3) =====
+[done] 280s

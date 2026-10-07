@@ -22,7 +22,9 @@ import heapq
 import matplotlib.pyplot as plt
 
 DATASETS = {
-    "textbge": ("../data/text-bge-100k.hdf5", "l2"),
+    "sift":  ("../data/sift-128-euclidean.hdf5",  "l2"),
+    "glove": ("../data/glove-100-angular.hdf5",   "angular"),
+    "gist":  ("../data/gist-960-euclidean.hdf5",  "l2"),
 }
 N         = 100_000
 M         = 16

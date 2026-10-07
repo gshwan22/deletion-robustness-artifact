@@ -1,0 +1,20 @@
+  [textbge] s0 random repair=0 fc=0.9194204463642909 (72s)
+  [textbge] s0 random repair=1 fc=None (198s)
+  [textbge] s0 hub    repair=0 fc=0.797147001934236 (243s)
+  [textbge] s0 hub    repair=1 fc=None (371s)
+  [textbge] s1 random repair=0 fc=0.9211187214611872 (444s)
+  [textbge] s1 random repair=1 fc=None (568s)
+  [textbge] s1 hub    repair=0 fc=0.7980042016806723 (612s)
+  [textbge] s1 hub    repair=1 fc=None (741s)
+  [textbge] s2 random repair=0 fc=0.9202722590139809 (814s)
+  [textbge] s2 random repair=1 fc=None (940s)
+  [textbge] s2 hub    repair=0 fc=0.8026889534883721 (984s)
+  [textbge] s2 hub    repair=1 fc=None (1112s)
+Traceback (most recent call last):
+  File "/home/kisti_platform/Desktop/Work_SH/ANN-Percolation/src/c6_repair_ext.py", line 80, in <module>
+    rec = run_sweep(base, q, nbrs0, None, rep, seed, adaptive=True)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kisti_platform/Desktop/Work_SH/ANN-Percolation/src/c6_repair_ext.py", line 55, in run_sweep
+    if len(newly):
+           ^^^^^
+UnboundLocalError: cannot access local variable 'newly' where it is not associated with a value

@@ -9,7 +9,7 @@ from matplotlib.lines import Line2D
 from matplotlib.ticker import FixedLocator, NullFormatter, ScalarFormatter
 import os
 
-R = "../results"; OUT = "../paper-edbt/figures"
+R = "../results"; OUT = "../figures"
 os.makedirs(OUT, exist_ok=True)
 mpl.rcParams.update({
     "font.size": 9, "axes.titlesize": 9.5, "axes.labelsize": 10,

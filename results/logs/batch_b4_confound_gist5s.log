@@ -1,0 +1,37 @@
+[data] q=(300, 960) seeds=[0, 1, 2, 3, 4]
+  seed0 [random   ] fc_surv=0.9128442796609966  fc_fixed=0.9122341335333629
+  seed0 [hub      ] fc_surv=0.37225274725262497  fc_fixed=0.4082669369190743
+  seed0 [antihub  ] fc_surv=None  fc_fixed=None
+  seed0 [relevance] fc_surv=0.8772594752185396  fc_fixed=0.12434681647937558
+  seed1 [random   ] fc_surv=0.9103818283165935  fc_fixed=0.9097125752364414
+  seed1 [hub      ] fc_surv=0.3744999999998664  fc_fixed=0.405494400855891
+  seed1 [antihub  ] fc_surv=None  fc_fixed=None
+  seed1 [relevance] fc_surv=0.8743766404198515  fc_fixed=0.12342190775678838
+  seed2 [random   ] fc_surv=0.9115343057806404  fc_fixed=0.9131064919415371
+  seed2 [hub      ] fc_surv=0.3766544117645589  fc_fixed=0.4179885023583962
+  seed2 [antihub  ] fc_surv=None  fc_fixed=None
+  seed2 [relevance] fc_surv=0.8806552262089049  fc_fixed=0.12423207885302145
+  seed3 [random   ] fc_surv=0.9113621480025972  fc_fixed=0.9103722975349553
+  seed3 [hub      ] fc_surv=0.37872549019590945  fc_fixed=0.41383563398381673
+  seed3 [antihub  ] fc_surv=None  fc_fixed=None
+  seed3 [relevance] fc_surv=0.8664285714284932  fc_fixed=0.12490663176262753
+  seed4 [random   ] fc_surv=0.9104631217838586  fc_fixed=0.9107072336113311
+  seed4 [hub      ] fc_surv=0.3672779922778922  fc_fixed=0.40531716417907726
+  seed4 [antihub  ] fc_surv=None  fc_fixed=None
+  seed4 [relevance] fc_surv=0.8769108280253491  fc_fixed=0.12490149999997485
+
+===== 측정 A: hubness vs relevance =====
+  gold 노드 평균 in-degree=27.9  vs  전체 평균=12.8  (비 2.18x)
+  corr(indeg, relevance)=0.393
+  -> 비가 1에 가깝고 corr 낮으면: hub != 정답영역 (교란 없음, 구조적 주장 안전)
+
+===== 측정 B+C: 모드별 f_c (survivor / fixed) =====
+  [random   ] survivor f_c=0.911±0.001   fixed f_c=0.911±0.001
+  [hub      ] survivor f_c=0.374±0.004   fixed f_c=0.410±0.005
+  [antihub  ] survivor f_c=None   fixed f_c=None
+  [relevance] survivor f_c=0.875±0.005   fixed f_c=0.124±0.001
+
+===== 판정 =====
+  oracle 공정성(#3): survivor vs fixed f_c 가 모드 순서 동일하면 oracle 정의 무관
+
+[done] 780.1s -> ../figures/confound_check.png

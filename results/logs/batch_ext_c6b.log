@@ -1,0 +1,21 @@
+nohup: 입력 무시
+  [gist] s0 adaptive repair=0 fc=0.3678571428571429 (34s)
+  [gist] s0 adaptive repair=1 fc=0.6881661442006269 (114s)
+  [gist] s1 adaptive repair=0 fc=0.36714456391875744 (148s)
+  [gist] s1 adaptive repair=1 fc=0.7070247933884297 (227s)
+  [gist] s2 adaptive repair=0 fc=0.3636038961038961 (260s)
+  [gist] s2 adaptive repair=1 fc=0.703021327014218 (339s)
+  [gist] s3 random repair=0 fc=0.9083615341229555 (397s)
+  [gist] s3 random repair=1 fc=None (491s)
+  [gist] s3 hub    repair=0 fc=0.37681086519114687 (515s)
+  [gist] s3 hub    repair=1 fc=0.624236641221374 (607s)
+  [gist] s4 random repair=0 fc=0.9100058343057176 (665s)
+  [gist] s4 random repair=1 fc=None (758s)
+  [gist] s4 hub    repair=0 fc=0.36966873706004144 (782s)
+  [gist] s4 hub    repair=1 fc=0.6109638554216867 (873s)
+===== c6 요약 =====
+Traceback (most recent call last):
+  File "/home/kisti_platform/Desktop/Work_SH/ANN-Percolation/src/c6b_repair_ext.py", line 102, in <module>
+    fcs = [fc_from_curve(F_GRID, out[f"{key_ds}_{mode}_{rep}_s{s}"]) for s in [0,1,2]]
+                                 ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'textbge_random_norep_s0'

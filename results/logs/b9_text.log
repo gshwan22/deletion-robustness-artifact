@@ -1,0 +1,17 @@
+nohup: 입력 무시
+[textbge] running ...
+  [textbge] seed0 random:0.918 hub:0.801 antihub:None relevance:0.909  hubness=4.8/top1%=0.03
+  [textbge] seed1 random:0.919 hub:0.794 antihub:None relevance:0.909  hubness=4.4/top1%=0.03
+  [textbge] seed2 random:0.92 hub:0.793 antihub:None relevance:0.908  hubness=5.3/top1%=0.03
+
+===== #8 데이터셋 일반화 =====
+      ds  hub(mm)  top1%  fc_hub  fc_rand    gap  antihub  relev
+  textbge      4.8   0.03   0.796    0.919  0.123     >rng  0.909
+  판정: 모든 ds 에서 hub<<rand & antihub 무해 & relev~rand -> 인과 일반화
+        hubness 순위와 gap 순위 일치 -> 메커니즘(hubness 지배) 지지
+
+===== #7 query 표본 (head300 vs rand300) =====
+  [textbge] hub: qA=0.796 qB=0.802   random: qA=0.919 qB=0.918
+  판정: qA~qB 면 표본 편향 없음
+
+[done] 879.9s -> ../results/dataset_generalization.npz

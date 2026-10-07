@@ -1,0 +1,13 @@
+nohup: 입력 무시
+Requirement already satisfied: numpy in /home/kisti_platform/Desktop/Work_SH/ANN-Percolation/.venv/lib/python3.12/site-packages (from hnswlib) (2.5.1)
+[2026-08-18 14:39:54] ===== START d1_theta =====
+[2026-08-18 15:08:25] ===== END d1_theta (exit=0) =====
+[2026-08-18 15:08:25] ===== START d3_hnswlib =====
+[2026-08-18 15:08:44] ===== END d3_hnswlib (exit=0) =====
+[2026-08-18 15:08:44] ===== START d2_fig67 =====
+[2026-08-18 15:08:44] ===== END d2_fig67 (exit=0) =====
+[2026-08-18 15:08:44] ===== START d6_mrng =====
+[2026-08-18 15:16:13] ===== END d6_mrng (exit=0) =====
+[2026-08-18 15:16:13] ===== START d5_mixed =====
+[2026-08-18 15:36:24] ===== END d5_mixed (exit=0) =====
+[2026-08-18 15:36:24] ===== ALL DONE =====

@@ -1,0 +1,25 @@
+nohup: 입력 무시
+[ok] b1_trigger_5s.py
+[ok] b2_spectrum_5s.py
+[warn] confound_check.py: 패턴 미발견: SEEDS = [0, 1, 2]
+[ok] b3_confound_5s.py
+[ok] b4_confound_gist_5s.py
+[ok] b5_curves5_5s.py
+[ok] b6_k_robustness.py
+[ok] b7_efc_sensitivity.py
+[2026-08-06 16:16:04] ===== START b7_efc =====
+[2026-08-06 16:21:13] ===== END b7_efc (exit=0) =====
+[2026-08-06 16:21:13] ===== START b6_krobust =====
+[2026-08-06 16:38:22] ===== END b6_krobust (exit=0) =====
+[2026-08-06 16:38:22] ===== START b2_spectrum5s =====
+[2026-08-06 17:02:13] ===== END b2_spectrum5s (exit=0) =====
+[2026-08-06 17:02:13] ===== START b5_curves5s =====
+[2026-08-06 17:14:03] ===== END b5_curves5s (exit=0) =====
+[2026-08-06 17:14:03] ===== START b3_confound_sift5s =====
+[2026-08-06 17:19:37] ===== END b3_confound_sift5s (exit=0) =====
+[2026-08-06 17:19:37] ===== START b1_trigger5s =====
+[2026-08-06 19:08:05] ===== END b1_trigger5s (exit=0) =====
+[2026-08-06 19:08:05] ===== START b4_confound_gist5s =====
+[2026-08-06 19:15:57] ===== END b4_confound_gist5s (exit=0) =====
+[2026-08-06 19:15:57] ===== ALL DONE =====
+결과 로그: results/batch_b*.log / npz: trigger_5s, attack_spectrum_5s, figdata_curves5_5s

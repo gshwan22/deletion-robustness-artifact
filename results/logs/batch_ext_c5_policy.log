@@ -1,0 +1,43 @@
+  [gist] s0 hub    repair_only    emax=0.601 rebuilds=0 rewrites=1429659 (159s)
+  [gist] s0 hub    fixed20_rep    emax=0.039 rebuilds=2 rewrites=1236559 (321s)
+  [gist] s0 hub    hubmass30_rep  emax=0.020 rebuilds=4 rewrites=1121901 (496s)
+  [gist] s0 random repair_only    emax=0.060 rebuilds=0 rewrites=871535 (612s)
+  [gist] s0 random fixed20_rep    emax=0.014 rebuilds=2 rewrites=734890 (746s)
+  [gist] s0 random hubmass30_rep  emax=0.033 rebuilds=2 rewrites=783412 (874s)
+  [gist] s1 hub    repair_only    emax=0.607 rebuilds=0 rewrites=1428971 (1033s)
+  [gist] s1 hub    fixed20_rep    emax=0.041 rebuilds=2 rewrites=1236160 (1194s)
+  [gist] s1 hub    hubmass30_rep  emax=0.021 rebuilds=4 rewrites=1123421 (1366s)
+  [gist] s1 random repair_only    emax=0.056 rebuilds=0 rewrites=871556 (1483s)
+  [gist] s1 random fixed20_rep    emax=0.017 rebuilds=2 rewrites=742925 (1615s)
+  [gist] s1 random hubmass30_rep  emax=0.026 rebuilds=2 rewrites=771171 (1744s)
+  [gist] s2 hub    repair_only    emax=0.597 rebuilds=0 rewrites=1429290 (1901s)
+  [gist] s2 hub    fixed20_rep    emax=0.033 rebuilds=2 rewrites=1239105 (2063s)
+  [gist] s2 hub    hubmass30_rep  emax=0.015 rebuilds=4 rewrites=1128098 (2237s)
+  [gist] s2 random repair_only    emax=0.056 rebuilds=0 rewrites=867336 (2353s)
+  [gist] s2 random fixed20_rep    emax=0.016 rebuilds=2 rewrites=735573 (2486s)
+  [gist] s2 random hubmass30_rep  emax=0.021 rebuilds=2 rewrites=767189 (2617s)
+  [sift] s0 hub    repair_only    emax=0.010 rebuilds=0 rewrites=1240491 (2713s)
+  [sift] s0 hub    fixed20_rep    emax=0.001 rebuilds=2 rewrites=1149508 (2804s)
+  [sift] s0 hub    hubmass30_rep  emax=0.001 rebuilds=3 rewrites=1149905 (2897s)
+  [sift] s0 random repair_only    emax=0.005 rebuilds=0 rewrites=1019951 (2982s)
+  [sift] s0 random fixed20_rep    emax=0.000 rebuilds=2 rewrites=971354 (3068s)
+  [sift] s0 random hubmass30_rep  emax=0.000 rebuilds=2 rewrites=988033 (3154s)
+  [sift] s1 hub    repair_only    emax=0.007 rebuilds=0 rewrites=1241744 (3251s)
+  [sift] s1 hub    fixed20_rep    emax=0.001 rebuilds=2 rewrites=1149981 (3343s)
+  [sift] s1 hub    hubmass30_rep  emax=0.001 rebuilds=3 rewrites=1149398 (3435s)
+  [sift] s1 random repair_only    emax=0.005 rebuilds=0 rewrites=1018952 (3521s)
+  [sift] s1 random fixed20_rep    emax=0.000 rebuilds=2 rewrites=970504 (3607s)
+  [sift] s1 random hubmass30_rep  emax=0.000 rebuilds=2 rewrites=987691 (3692s)
+  [sift] s2 hub    repair_only    emax=0.007 rebuilds=0 rewrites=1241494 (3789s)
+  [sift] s2 hub    fixed20_rep    emax=0.000 rebuilds=2 rewrites=1150947 (3882s)
+  [sift] s2 hub    hubmass30_rep  emax=0.000 rebuilds=3 rewrites=1151417 (3975s)
+  [sift] s2 random repair_only    emax=0.009 rebuilds=0 rewrites=1026179 (4058s)
+  [sift] s2 random fixed20_rep    emax=0.007 rebuilds=2 rewrites=974591 (4145s)
+  [sift] s2 random hubmass30_rep  emax=0.000 rebuilds=2 rewrites=987425 (4230s)
+===== c5 요약: emax / rebuilds (3 seeds 평균) =====
+  gist hub: repair_only: 0.602/r0.0  fixed20_rep: 0.038/r2.0  hubmass30_rep: 0.019/r4.0
+  gist random: repair_only: 0.058/r0.0  fixed20_rep: 0.016/r2.0  hubmass30_rep: 0.027/r2.0
+  sift hub: repair_only: 0.008/r0.0  fixed20_rep: 0.001/r2.0  hubmass30_rep: 0.001/r3.0
+  sift random: repair_only: 0.006/r0.0  fixed20_rep: 0.002/r2.0  hubmass30_rep: 0.000/r2.0
+  판정: 고-h(hub)에서 repair_only 의 emax 가 크게 남으면 -> 수리 시대에도 질량 트리거 필요
+[done] 4230s

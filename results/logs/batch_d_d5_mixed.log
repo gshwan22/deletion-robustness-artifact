@@ -1,0 +1,27 @@
+  [gist] s0 never     emax=0.175 rebuilds=0 (64s)
+  [gist] s0 fixed20   emax=0.052 rebuilds=2 (154s)
+  [gist] s0 hubmass30 emax=0.024 rebuilds=3 (261s)
+  [gist] s1 never     emax=0.172 rebuilds=0 (324s)
+  [gist] s1 fixed20   emax=0.061 rebuilds=2 (415s)
+  [gist] s1 hubmass30 emax=0.026 rebuilds=3 (521s)
+  [gist] s2 never     emax=0.153 rebuilds=0 (584s)
+  [gist] s2 fixed20   emax=0.057 rebuilds=2 (675s)
+  [gist] s2 hubmass30 emax=0.024 rebuilds=3 (782s)
+  [sift] s0 never     emax=0.003 rebuilds=0 (826s)
+  [sift] s0 fixed20   emax=0.000 rebuilds=2 (875s)
+  [sift] s0 hubmass30 emax=0.001 rebuilds=2 (925s)
+  [sift] s1 never     emax=0.002 rebuilds=0 (969s)
+  [sift] s1 fixed20   emax=0.001 rebuilds=2 (1019s)
+  [sift] s1 hubmass30 emax=0.000 rebuilds=2 (1069s)
+  [sift] s2 never     emax=0.003 rebuilds=0 (1112s)
+  [sift] s2 fixed20   emax=0.001 rebuilds=2 (1161s)
+  [sift] s2 hubmass30 emax=0.001 rebuilds=2 (1210s)
+===== d5 요약: 혼합 스트림 emax / rebuilds (3s) =====
+  gist never    : 0.167 / r0.0
+  gist fixed20  : 0.057 / r2.0
+  gist hubmass30: 0.025 / r3.0
+  sift never    : 0.003 / r0.0
+  sift fixed20  : 0.001 / r2.0
+  sift hubmass30: 0.001 / r2.0
+  판정: 삽입이 섞여도 질량 트리거의 우위가 유지되는가 (참조 갱신 포함)
+[done] 1210s

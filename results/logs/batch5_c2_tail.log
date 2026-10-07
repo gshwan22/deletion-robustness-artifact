@@ -1,0 +1,19 @@
+  [sift] s0 h=3.4 k99r=2.08 top1%=0.023 gini=0.213 cv=0.38 (2s)
+  [sift] s1 h=5.1 k99r=2.08 top1%=0.023 gini=0.212 cv=0.38 (4s)
+  [sift] s2 h=4.2 k99r=2.08 top1%=0.023 gini=0.212 cv=0.38 (6s)
+  [glove] s0 h=9.4 k99r=2.54 top1%=0.029 gini=0.240 cv=0.46 (10s)
+  [glove] s1 h=8.6 k99r=2.54 top1%=0.029 gini=0.241 cv=0.46 (12s)
+  [glove] s2 h=6.5 k99r=2.54 top1%=0.029 gini=0.241 cv=0.46 (15s)
+  [gist] s0 h=42.1 k99r=4.31 top1%=0.056 gini=0.452 cv=0.92 (28s)
+  [gist] s1 h=17.7 k99r=4.28 top1%=0.055 gini=0.451 cv=0.92 (41s)
+  [gist] s2 h=22.4 k99r=4.29 top1%=0.055 gini=0.452 cv=0.92 (54s)
+  [textbge] s0 h=4.7 k99r=2.38 top1%=0.027 gini=0.231 cv=0.43 (71s)
+  [textbge] s1 h=4.4 k99r=2.38 top1%=0.027 gini=0.231 cv=0.43 (89s)
+  [textbge] s2 h=4.4 k99r=2.38 top1%=0.027 gini=0.232 cv=0.43 (106s)
+===== c2 요약: 예측자 후보 vs Δfc =====
+  h          sift:4.253 glove:8.149 gist:27.397 textbge:4.493  | rank-corr(Δfc)=0.20
+  k99_ratio  sift:2.079 glove:2.538 gist:4.293 textbge:2.379  | rank-corr(Δfc)=0.20
+  top1%mass  sift:0.023 glove:0.029 gist:0.055 textbge:0.027  | rank-corr(Δfc)=0.20
+  gini       sift:0.212 glove:0.241 gist:0.451 textbge:0.231  | rank-corr(Δfc)=0.20
+  cv         sift:0.382 glove:0.457 gist:0.919 textbge:0.430  | rank-corr(Δfc)=0.20
+[done] 106s

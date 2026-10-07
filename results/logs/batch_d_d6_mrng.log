@@ -1,0 +1,25 @@
+    mrng build 20000/100000 (37s)
+    mrng build 40000/100000 (41s)
+    mrng build 60000/100000 (45s)
+    mrng build 80000/100000 (49s)
+    mrng build 100000/100000 (52s)
+  [mrng-gist] s0 h=54.9
+  [mrng-gist] s0 random repair=0 fc=0.8041322314049587 (78s)
+  [mrng-gist] s0 random repair=1 fc=None (150s)
+  [mrng-gist] s0 hub    repair=0 fc=0.17701375245579568 (162s)
+  [mrng-gist] s0 hub    repair=1 fc=0.3566852367688022 (224s)
+    mrng build 20000/100000 (262s)
+    mrng build 40000/100000 (266s)
+    mrng build 60000/100000 (269s)
+    mrng build 80000/100000 (273s)
+    mrng build 100000/100000 (277s)
+  [mrng-gist] s1 h=33.0
+  [mrng-gist] s1 random repair=0 fc=0.8178087986463621 (303s)
+  [mrng-gist] s1 random repair=1 fc=None (374s)
+  [mrng-gist] s1 hub    repair=0 fc=0.18128318584070796 (386s)
+  [mrng-gist] s1 hub    repair=1 fc=0.3620523415977961 (449s)
+===== d6 요약 =====
+  mrng-gist random: norep:0.811 -> rep:>0.95
+  mrng-gist hub: norep:0.179 -> rep:0.359
+  판정: 극단-h(~40)에서 수리 불충분이 재현되면 h-지배의 계열 일반화
+[done] 449s

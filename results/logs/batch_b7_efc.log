@@ -1,0 +1,13 @@
+  [efC=100] seed0 [random] f_c=0.916076115485539 hubness=5.9
+  [efC=100] seed0 [hub] f_c=0.7200096899223642 hubness=5.9
+  [efC=100] seed1 [random] f_c=0.9136892177589635 hubness=4.5
+  [efC=100] seed1 [hub] f_c=0.7223140495866385 hubness=4.5
+  [efC=100] seed2 [random] f_c=0.9142784293727472 hubness=5.9
+  [efC=100] seed2 [hub] f_c=0.719706498951658 hubness=5.9
+  [efC=400] seed0 [random] f_c=0.9250637348629221 hubness=4.1
+  [efC=400] seed0 [hub] f_c=0.8277232142855658 hubness=4.1
+  [efC=400] seed1 [random] f_c=0.9188956433636998 hubness=3.6
+  [efC=400] seed1 [hub] f_c=0.8313356164381952 hubness=3.6
+  [efC=400] seed2 [random] f_c=0.9183991228069933 hubness=4.6
+  [efC=400] seed2 [hub] f_c=0.8250407830341352 hubness=4.6
+[done] 308.5s (efC sensitivity)

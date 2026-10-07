@@ -1,0 +1,31 @@
+  [sift] s0 random repair=0 fc=0.9168713711478339 rec@0.5=0.998 rewrites=0 (32s)
+  [sift] s0 random repair=1 fc=None rec@0.5=0.999 rewrites=824053 (101s)
+  [sift] s0 hub    repair=0 fc=0.7877717391304349 rec@0.5=0.964 rewrites=0 (126s)
+  [sift] s0 hub    repair=1 fc=None rec@0.5=0.998 rewrites=876296 (198s)
+  [sift] s1 random repair=0 fc=0.9171703898379325 rec@0.5=0.998 rewrites=0 (230s)
+  [sift] s1 random repair=1 fc=None rec@0.5=0.999 rewrites=823396 (300s)
+  [sift] s1 hub    repair=0 fc=0.7813232830820771 rec@0.5=0.970 rewrites=0 (325s)
+  [sift] s1 hub    repair=1 fc=None rec@0.5=0.998 rewrites=876100 (397s)
+  [sift] s2 random repair=0 fc=0.9170184696569921 rec@0.5=0.998 rewrites=0 (429s)
+  [sift] s2 random repair=1 fc=0.9247389693499495 rec@0.5=0.999 rewrites=826404 (498s)
+  [sift] s2 hub    repair=0 fc=0.7799632352941177 rec@0.5=0.966 rewrites=0 (522s)
+  [sift] s2 hub    repair=1 fc=None rec@0.5=0.997 rewrites=877089 (593s)
+  [gist] s0 random repair=0 fc=0.9083846584546472 rec@0.5=0.975 rewrites=0 (651s)
+  [gist] s0 random repair=1 fc=None rec@0.5=0.963 rewrites=718909 (744s)
+  [gist] s0 hub    repair=0 fc=0.36887308533916846 rec@0.5=0.115 rewrites=0 (767s)
+  [gist] s0 hub    repair=1 fc=0.6174539170506912 rec@0.5=0.745 rewrites=881808 (859s)
+  [gist] s1 random repair=0 fc=0.9114107883817427 rec@0.5=0.972 rewrites=0 (917s)
+  [gist] s1 random repair=1 fc=None rec@0.5=0.958 rewrites=721273 (1011s)
+  [gist] s1 hub    repair=0 fc=0.375 rec@0.5=0.121 rewrites=0 (1034s)
+  [gist] s1 hub    repair=1 fc=0.6122891566265061 rec@0.5=0.768 rewrites=881583 (1126s)
+  [gist] s2 random repair=0 fc=0.9124433249370277 rec@0.5=0.973 rewrites=0 (1184s)
+  [gist] s2 random repair=1 fc=0.9205452390359542 rec@0.5=0.964 rewrites=720330 (1278s)
+  [gist] s2 hub    repair=0 fc=0.3722560975609756 rec@0.5=0.105 rewrites=0 (1301s)
+  [gist] s2 hub    repair=1 fc=0.6023746701846966 rec@0.5=0.756 rewrites=882008 (1392s)
+===== c4 요약: fc (no-repair -> repair) =====
+  sift random: norep:0.917±0.000 -> rep:0.925±0.000
+  sift hub: norep:0.783±0.003 -> rep:>0.95
+  gist random: norep:0.911±0.002 -> rep:0.921±0.000
+  gist hub: norep:0.372±0.003 -> rep:0.611±0.006
+  판정: hub의 rep-norep 격차가 random 대비 얼마나 좁혀지는가 = 수리의 허브 취약성 완화 정도
+[done] 1392s

@@ -1,0 +1,19 @@
+  s0 hub    theta=0.45 emax=0.038 rebuilds=2 (173s)
+  s0 hub    theta=0.6 emax=0.068 rebuilds=1 (328s)
+  s0 random theta=0.45 emax=0.048 rebuilds=1 (452s)
+  s0 random theta=0.6 emax=0.062 rebuilds=0 (567s)
+  s1 hub    theta=0.45 emax=0.039 rebuilds=2 (743s)
+  s1 hub    theta=0.6 emax=0.072 rebuilds=1 (901s)
+  s1 random theta=0.45 emax=0.046 rebuilds=1 (1024s)
+  s1 random theta=0.6 emax=0.064 rebuilds=0 (1138s)
+  s2 hub    theta=0.45 emax=0.038 rebuilds=2 (1314s)
+  s2 hub    theta=0.6 emax=0.084 rebuilds=1 (1470s)
+  s2 random theta=0.45 emax=0.043 rebuilds=1 (1594s)
+  s2 random theta=0.6 emax=0.056 rebuilds=0 (1710s)
+===== d1 요약 (3s 평균) =====
+  gist hub theta=0.45: emax=0.038 rebuilds=2.0
+  gist hub theta=0.60: emax=0.075 rebuilds=1.0
+  gist random theta=0.45: emax=0.046 rebuilds=1.0
+  gist random theta=0.60: emax=0.061 rebuilds=0.0
+  기준: fixed20+rep = 0.038/r2 — 동일 r에서 emax 비교
+[done] 1710s

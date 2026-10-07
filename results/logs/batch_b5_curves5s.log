@@ -1,0 +1,26 @@
+  seed0 [random] rec_last=0.016 S_last=0.173
+  seed0 [hub] rec_last=0.006 S_last=0.005
+  seed0 [clustered] rec_last=0.961 S_last=0.605
+  seed0 [antihub] rec_last=0.855 S_last=0.952
+  seed0 [relevance] rec_last=0.031 S_last=0.192
+  seed1 [random] rec_last=0.074 S_last=0.181
+  seed1 [hub] rec_last=0.005 S_last=0.004
+  seed1 [clustered] rec_last=0.900 S_last=0.465
+  seed1 [antihub] rec_last=0.854 S_last=0.953
+  seed1 [relevance] rec_last=0.090 S_last=0.195
+  seed2 [random] rec_last=0.046 S_last=0.163
+  seed2 [hub] rec_last=0.003 S_last=0.004
+  seed2 [clustered] rec_last=0.965 S_last=0.992
+  seed2 [antihub] rec_last=0.846 S_last=0.954
+  seed2 [relevance] rec_last=0.154 S_last=0.199
+  seed3 [random] rec_last=0.084 S_last=0.131
+  seed3 [hub] rec_last=0.004 S_last=0.004
+  seed3 [clustered] rec_last=0.981 S_last=0.648
+  seed3 [antihub] rec_last=0.833 S_last=0.954
+  seed3 [relevance] rec_last=0.137 S_last=0.180
+  seed4 [random] rec_last=0.051 S_last=0.393
+  seed4 [hub] rec_last=0.009 S_last=0.004
+  seed4 [clustered] rec_last=0.983 S_last=0.993
+  seed4 [antihub] rec_last=0.836 S_last=0.950
+  seed4 [relevance] rec_last=0.041 S_last=0.195
+[done] 710.1s -> figdata_curves5_v2.npz

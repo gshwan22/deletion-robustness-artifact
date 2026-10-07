@@ -1,0 +1,39 @@
+[sift] N=100000 q=(200, 128)
+  [sift][random     ][never     ] min=0.996±0.002 rebuilds=0.0 (min@f=0.57)
+  [sift][random     ][fixed20   ] min=1.000±0.000 rebuilds=4.0 (min@f=0.16)
+  [sift][random     ][hubmass0.15] min=0.999±0.001 rebuilds=5.0 (min@f=0.18)
+  [sift][random     ][hubmass0.3] min=1.000±0.000 rebuilds=2.0 (min@f=0.16)
+  [sift][hubtargeted][never     ] min=0.912±0.010 rebuilds=0.0 (min@f=0.60)
+  [sift][hubtargeted][fixed20   ] min=0.999±0.001 rebuilds=4.0 (min@f=0.09)
+  [sift][hubtargeted][hubmass0.15] min=0.999±0.001 rebuilds=6.0 (min@f=0.07)
+  [sift][hubtargeted][hubmass0.3] min=0.999±0.000 rebuilds=3.0 (min@f=0.22)
+  [sift][clustered  ][never     ] min=0.998±0.001 rebuilds=0.0 (min@f=0.59)
+  [sift][clustered  ][fixed20   ] min=1.000±0.001 rebuilds=4.0 (min@f=0.14)
+  [sift][clustered  ][hubmass0.15] min=1.000±0.000 rebuilds=4.8 (min@f=0.11)
+  [sift][clustered  ][hubmass0.3] min=0.999±0.001 rebuilds=2.0 (min@f=0.21)
+[gist] N=100000 q=(200, 960)
+  [gist][random     ][never     ] min=0.965±0.004 rebuilds=0.0 (min@f=0.60)
+  [gist][random     ][fixed20   ] min=0.991±0.001 rebuilds=4.0 (min@f=0.30)
+  [gist][random     ][hubmass0.15] min=0.992±0.001 rebuilds=4.8 (min@f=0.25)
+  [gist][random     ][hubmass0.3] min=0.988±0.001 rebuilds=2.0 (min@f=0.28)
+  [gist][hubtargeted][never     ] min=0.004±0.004 rebuilds=0.0 (min@f=0.60)
+  [gist][hubtargeted][fixed20   ] min=0.937±0.008 rebuilds=4.0 (min@f=0.18)
+  [gist][hubtargeted][hubmass0.15] min=0.991±0.001 rebuilds=9.0 (min@f=0.06)
+  [gist][hubtargeted][hubmass0.3] min=0.984±0.001 rebuilds=4.0 (min@f=0.08)
+  [gist][clustered  ][never     ] min=0.975±0.003 rebuilds=0.0 (min@f=0.60)
+  [gist][clustered  ][fixed20   ] min=0.991±0.001 rebuilds=4.0 (min@f=0.33)
+  [gist][clustered  ][hubmass0.15] min=0.991±0.001 rebuilds=4.8 (min@f=0.30)
+  [gist][clustered  ][hubmass0.3] min=0.990±0.002 rebuilds=2.0 (min@f=0.26)
+
+===== v2 요약: ds x scenario x policy -> min recall (rebuilds) =====
+     ds     scenario |           never |         fixed20 |     hubmass0.15 |      hubmass0.3
+   sift       random |       0.996 r=0 |       1.000 r=4 |       0.999 r=5 |       1.000 r=2
+   sift  hubtargeted |       0.912 r=0 |       0.999 r=4 |       0.999 r=6 |       0.999 r=3
+   sift    clustered |       0.998 r=0 |       1.000 r=4 |       1.000 r=5 |       0.999 r=2
+   gist       random |       0.965 r=0 |       0.991 r=4 |       0.992 r=5 |       0.988 r=2
+   gist  hubtargeted |       0.004 r=0 |       0.937 r=4 |       0.991 r=9 |       0.984 r=4
+   gist    clustered |       0.975 r=0 |       0.991 r=4 |       0.991 r=5 |       0.990 r=2
+
+  성립 조건: gist×hubtargeted 에서 never·fixed20 의 min << hubmass 의 min
+
+[done] 6508.1s -> ../results/trigger_v2.npz

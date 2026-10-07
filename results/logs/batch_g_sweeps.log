@@ -1,0 +1,41 @@
+  [e2b] gist hub-static fixed05 : emax=0.017±0.003 C_r=13.0 (1505s)
+  [e2b] gist hub-static fixed10 : emax=0.031±0.002 C_r=7.0 (2619s)
+  [e2b] gist hub-static fixed15 : emax=0.053±0.004 C_r=5.0 (3636s)
+  [e2b] gist hub-static fixed20 : emax=0.098±0.004 C_r=3.0 (4485s)
+  [e2b] gist hub-static fixed25 : emax=0.172±0.006 C_r=2.0 (5294s)
+  [e2b] gist hub-static mass15  : emax=0.012±0.001 C_r=9.0 (6616s)
+  [e2b] gist hub-static mass30  : emax=0.024±0.002 C_r=4.0 (7629s)
+  [e2b] sift hub-static fixed05 : emax=0.000±0.000 C_r=13.0 (7871s)
+  [e2b] sift hub-static fixed10 : emax=0.000±0.000 C_r=7.0 (8083s)
+  [e2b] sift hub-static fixed15 : emax=0.001±0.000 C_r=5.0 (8282s)
+  [e2b] sift hub-static fixed20 : emax=0.001±0.000 C_r=3.0 (8469s)
+  [e2b] sift hub-static fixed25 : emax=0.001±0.001 C_r=2.0 (8649s)
+  [e2b] sift hub-static mass15  : emax=0.000±0.000 C_r=6.0 (8857s)
+  [e2b] sift hub-static mass30  : emax=0.001±0.000 C_r=3.0 (9044s)
+===== e2b 요약 (정적 hub 스트림) =====
+  gist fixed05  C_r=13.0 emax=0.017
+  gist fixed10  C_r=7.0 emax=0.031
+  gist fixed15  C_r=5.0 emax=0.053
+  gist fixed20  C_r=3.0 emax=0.098
+  gist fixed25  C_r=2.0 emax=0.172
+  gist mass15   C_r=9.0 emax=0.012
+  gist mass30   C_r=4.0 emax=0.024
+  sift fixed05  C_r=13.0 emax=0.000
+  sift fixed10  C_r=7.0 emax=0.000
+  sift fixed15  C_r=5.0 emax=0.001
+  sift fixed20  C_r=3.0 emax=0.001
+  sift fixed25  C_r=2.0 emax=0.001
+  sift mass15   C_r=6.0 emax=0.000
+  sift mass30   C_r=3.0 emax=0.001
+  [e6] gist mixed fixed10 : emax=0.020±0.003 C_r=4.0 (9573s)
+  [e6] gist mixed fixed15 : emax=0.036±0.003 C_r=2.0 (10081s)
+  [e6] gist mixed fixed25 : emax=0.085±0.000 C_r=1.0 (10529s)
+  [e6] gist mixed mass15  : emax=0.010±0.001 C_r=8.0 (11261s)
+  [e6] gist mixed mass45  : emax=0.050±0.003 C_r=2.0 (11754s)
+===== e6 요약 (기존 d5: never 0.167/r0, fixed20 0.057/r2, mass30 0.025/r3 ; d5b: mass45 0.048/r2) =====
+  fixed10  C_r=4.0 emax=0.020
+  fixed15  C_r=2.0 emax=0.036
+  fixed25  C_r=1.0 emax=0.085
+  mass15   C_r=8.0 emax=0.010
+  mass45   C_r=2.0 emax=0.050
+[done] 11754s

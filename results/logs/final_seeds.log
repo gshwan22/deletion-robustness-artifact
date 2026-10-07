@@ -1,0 +1,42 @@
+nohup: 입력 무시
+=========== (A) 데이터셋 표 : 5 seeds ===========
+  [sift] seed0 random:0.919 hub:0.783 antihub:None relevance:0.915
+  [sift] seed1 random:0.918 hub:0.783 antihub:None relevance:0.915
+  [sift] seed2 random:0.917 hub:0.784 antihub:None relevance:0.914
+  [sift] seed3 random:0.921 hub:0.784 antihub:None relevance:0.917
+  [sift] seed4 random:0.92 hub:0.779 antihub:None relevance:0.912
+  [glove] seed0 random:0.917 hub:0.797 antihub:None relevance:0.907
+  [glove] seed1 random:0.921 hub:0.806 antihub:None relevance:0.912
+  [glove] seed2 random:0.918 hub:0.797 antihub:None relevance:0.907
+  [glove] seed3 random:0.92 hub:0.798 antihub:None relevance:0.905
+  [glove] seed4 random:0.919 hub:0.804 antihub:None relevance:0.908
+  [gist] seed0 random:0.913 hub:0.371 antihub:None relevance:0.881
+  [gist] seed1 random:0.912 hub:0.372 antihub:None relevance:0.875
+  [gist] seed2 random:0.911 hub:0.371 antihub:None relevance:0.878
+  [gist] seed3 random:0.912 hub:0.375 antihub:None relevance:0.872
+  [gist] seed4 random:0.911 hub:0.374 antihub:None relevance:0.88
+
+----- (A) 최종 표 (mean±std, 5 seeds) -----
+      ds  hubness        fc_hub       fc_rand    gap  antihub         relev
+    sift      4.2   0.783±0.002   0.919±0.001  0.136     >rng   0.915±0.002
+   glove      6.6   0.801±0.004   0.919±0.001  0.118     >rng   0.908±0.002
+    gist     25.2   0.373±0.002   0.912±0.001  0.539     >rng   0.877±0.003
+
+=========== (B) M sweep (sift) : 5 seeds ===========
+  M=8   hubness=4.7  hub=0.721±0.003  random=0.867±0.013
+  M=16  hubness=4.0  hub=0.785±0.004  random=0.919±0.002
+  M=32  hubness=4.4  hub=0.786±0.001  random=0.946±0.002
+  M=48  hubness=5.9  hub=0.789±0.002  random= >rng
+
+----- (B) 최종 표 -----
+     M  hubness        fc_hub       fc_rand    gap
+     8      4.7   0.721±0.003   0.867±0.013  0.146
+    16      4.0   0.785±0.004   0.919±0.002  0.135
+    32      4.4   0.786±0.001   0.946±0.002  0.160
+    48      5.9   0.789±0.002          >rng   >rng
+Traceback (most recent call last):
+  File "/home/kisti_platform/Desktop/Work_SH/ANN-Percolation/src/final_seeds.py", line 230, in <module>
+    main()
+  File "/home/kisti_platform/Desktop/Work_SH/ANN-Percolation/src/final_seeds.py", line 217, in main
+    np.savez("../results/final_seeds.npz",
+TypeError: numpy.savez() got multiple values for keyword argument 'A_sift_hub'

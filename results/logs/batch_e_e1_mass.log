@@ -1,0 +1,23 @@
+  [gist] s0 orders done (13s)
+  [gist] s1 orders done (26s)
+  [gist] s2 orders done (38s)
+  [gist] 순서 5종 | 동일-f 분산 0.2558 vs 동일-질량 분산 0.1165 | 축소비 2.20x
+  [sift] s0 orders done (41s)
+  [sift] s1 orders done (43s)
+  [sift] s2 orders done (45s)
+  [sift] 순서 4종 | 동일-f 분산 0.0706 vs 동일-질량 분산 0.0284 | 축소비 2.49x
+===== e1 요약 =====
+  gist: 동일-f 분산 0.2558 -> 동일-질량 분산 0.1165 (축소 2.20x)
+  sift: 동일-f 분산 0.0706 -> 동일-질량 분산 0.0284 (축소 2.49x)
+  판정: 축소비 >2x 면 '질량이 올바른 상태변수'의 직접 증거. ~1x 면 proxy로 강등 서술
+===== c3 oldest-first 수치 (§8 인용용) =====
+  sift oldest: fc=0.934±0.001
+  sift newest: fc=0.928±0.007
+  sift random: fc=0.917±0.001
+  gist oldest: fc=0.911±0.001
+  gist newest: fc=0.912±0.001
+  gist random: fc=0.910±0.002
+  textbge oldest: fc=>0.95
+  textbge newest: fc=>0.95
+  textbge random: fc=0.921±0.001
+[done] 45s

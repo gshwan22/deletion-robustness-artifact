@@ -1,0 +1,16 @@
+nohup: 입력 무시
+  insert 0/100000 (14s)
+  insert 20000/100000 (38s)
+  insert 40000/100000 (59s)
+  insert 60000/100000 (80s)
+  insert 80000/100000 (101s)
+  index built (258s)
+  f=0.0 recall=0.998
+  [hub] after DELETE (tombstone)  f=0.75: recall=0.826
+  [hub] after VACUUM (index repair) f=0.75: recall=1.000  (4124s)
+  [random] after DELETE (tombstone)  f=0.75: recall=0.996
+  [random] after VACUUM (index repair) f=0.75: recall=1.000  (5619s)
+===== d7 판정 =====
+  tombstone 단계 recall 높음 → 은폐형(hnswlib 계열) / 낮음 → 노출형(Qdrant 계열)
+  VACUUM 후 회복 정도 → pgvector 의 삭제 시 링크 수리 효력 (우리 §6.4 수리 결과와 대조)
+[done] 5619s

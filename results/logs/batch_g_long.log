@@ -1,0 +1,56 @@
+===== e7: adaptive / k-core 5 seeds =====
+  [sift] seed 0: adaptive f_c=0.6601645123384254  kcore f_c=0.8434840425531915  (76s)
+  [sift] seed 1: adaptive f_c=0.6597360703812317  kcore f_c=0.8498263888888888  (154s)
+  [sift] seed 2: adaptive f_c=0.6606985698569857  kcore f_c=0.8407692307692307  (231s)
+  [sift] seed 3: adaptive f_c=0.6592136854741897  kcore f_c=0.854710920770878  (309s)
+  [sift] seed 4: adaptive f_c=0.6602198455139632  kcore f_c=0.8449074074074074  (385s)
+  [sift] adaptive f_c = 0.660±0.001  | kcore f_c = 0.847±0.005
+  [gist] seed 0: adaptive f_c=0.3563666300768386  kcore f_c=0.4206153846153846  (516s)
+  [gist] seed 1: adaptive f_c=0.35801991150442475  kcore f_c=0.4242666666666667  (651s)
+  [gist] seed 2: adaptive f_c=0.35912263210368894  kcore f_c=0.42987804878048785  (784s)
+  [gist] seed 3: adaptive f_c=0.35973544973544974  kcore f_c=0.4229591836734694  (916s)
+  [gist] seed 4: adaptive f_c=0.35604751619870406  kcore f_c=0.4297805642633229  (1051s)
+  [gist] adaptive f_c = 0.358±0.001  | kcore f_c = 0.425±0.004
+===== e5: 수리 활성 스트림 개수 스윕 (자체 국소수리) =====
+  [e5] never_rep seed 0: emax=0.633 C_r=0 (1761s)
+  [e5] never_rep seed 1: emax=0.633 C_r=0 (2472s)
+  [e5] never_rep seed 2: emax=0.601 C_r=0 (3190s)
+  [e5] never_rep: emax=0.622±0.015 C_r=0.0
+  [e5] fixed10   seed 0: emax=0.077 C_r=7 (4003s)
+  [e5] fixed10   seed 1: emax=0.076 C_r=7 (4819s)
+  [e5] fixed10   seed 2: emax=0.073 C_r=7 (5596s)
+  [e5] fixed10  : emax=0.075±0.002 C_r=7.0
+  [e5] fixed15   seed 0: emax=0.096 C_r=5 (6405s)
+  [e5] fixed15   seed 1: emax=0.099 C_r=5 (7213s)
+  [e5] fixed15   seed 2: emax=0.096 C_r=5 (8022s)
+  [e5] fixed15  : emax=0.097±0.001 C_r=5.0
+  [e5] fixed20   seed 0: emax=0.124 C_r=3 (8808s)
+  [e5] fixed20   seed 1: emax=0.121 C_r=3 (9599s)
+  [e5] fixed20   seed 2: emax=0.121 C_r=3 (10407s)
+  [e5] fixed20  : emax=0.122±0.002 C_r=3.0
+  [e5] fixed25   seed 0: emax=0.148 C_r=2 (11182s)
+  [e5] fixed25   seed 1: emax=0.149 C_r=2 (11958s)
+  [e5] fixed25   seed 2: emax=0.161 C_r=2 (12718s)
+  [e5] fixed25  : emax=0.153±0.006 C_r=2.0
+  [e5] mass15    seed 0: emax=0.030 C_r=12 (13511s)
+  [e5] mass15    seed 1: emax=0.031 C_r=12 (14326s)
+  [e5] mass15    seed 2: emax=0.025 C_r=12 (15107s)
+  [e5] mass15   : emax=0.029±0.003 C_r=12.0
+  [e5] mass30    seed 0: emax=0.064 C_r=6 (15897s)
+  [e5] mass30    seed 1: emax=0.060 C_r=6 (16676s)
+  [e5] mass30    seed 2: emax=0.059 C_r=6 (17456s)
+  [e5] mass30   : emax=0.061±0.002 C_r=6.0
+  [e5] mass45    seed 0: emax=0.108 C_r=3 (18233s)
+  [e5] mass45    seed 1: emax=0.103 C_r=3 (19011s)
+  [e5] mass45    seed 2: emax=0.106 C_r=3 (19789s)
+  [e5] mass45   : emax=0.106±0.002 C_r=3.0
+===== e5 요약 (수리 활성, 자체 구현) =====
+  never_rep C_r=0.0 emax=0.622
+  fixed10   C_r=7.0 emax=0.075
+  fixed15   C_r=5.0 emax=0.097
+  fixed20   C_r=3.0 emax=0.122
+  fixed25   C_r=2.0 emax=0.153
+  mass15    C_r=12.0 emax=0.029
+  mass30    C_r=6.0 emax=0.061
+  mass45    C_r=3.0 emax=0.106
+[done] 19789s

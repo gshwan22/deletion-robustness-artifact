@@ -1,0 +1,257 @@
+nohup: 입력 무시
+[1/5] qrels & corpus ...
+Generating test split:   0%|          | 0/4201 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 4201/4201 [00:00<00:00, 203354.62 examples/s]
+  queries with gold: 3452, gold passages: 4201
+  gold collected: 4201, filler pool: 295799
+[2/5] usable queries: 3452
+[3/5] embedding (bge-m3) ...
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 40976.78it/s]
+Batches:   0%|          | 0/391 [00:00<?, ?it/s]Batches:   0%|          | 1/391 [00:35<3:49:40, 35.33s/it]Batches:   1%|          | 2/391 [00:44<2:09:12, 19.93s/it]Batches:   1%|          | 3/391 [00:52<1:33:22, 14.44s/it]Batches:   1%|          | 4/391 [00:59<1:15:12, 11.66s/it]Batches:   1%|▏         | 5/391 [01:07<1:05:45, 10.22s/it]Batches:   2%|▏         | 6/391 [01:15<1:00:31,  9.43s/it]Batches:   2%|▏         | 7/391 [01:21<53:52,  8.42s/it]  Batches:   2%|▏         | 8/391 [01:28<50:22,  7.89s/it]Batches:   2%|▏         | 9/391 [01:35<48:11,  7.57s/it]Batches:   3%|▎         | 10/391 [01:41<44:56,  7.08s/it]Batches:   3%|▎         | 11/391 [01:47<42:30,  6.71s/it]Batches:   3%|▎         | 12/391 [01:53<40:51,  6.47s/it]Batches:   3%|▎         | 13/391 [01:59<41:21,  6.56s/it]Batches:   4%|▎         | 14/391 [02:05<39:29,  6.29s/it]Batches:   4%|▍         | 15/391 [02:11<38:12,  6.10s/it]Batches:   4%|▍         | 16/391 [02:17<38:06,  6.10s/it]Batches:   4%|▍         | 17/391 [02:23<38:15,  6.14s/it]Batches:   5%|▍         | 18/391 [02:28<36:48,  5.92s/it]Batches:   5%|▍         | 19/391 [02:34<35:28,  5.72s/it]Batches:   5%|▌         | 20/391 [02:39<34:32,  5.59s/it]Batches:   5%|▌         | 21/391 [02:44<33:27,  5.43s/it]Batches:   6%|▌         | 22/391 [02:49<33:25,  5.44s/it]Batches:   6%|▌         | 23/391 [02:55<32:52,  5.36s/it]Batches:   6%|▌         | 24/391 [03:00<32:13,  5.27s/it]Batches:   6%|▋         | 25/391 [03:05<31:40,  5.19s/it]Batches:   7%|▋         | 26/391 [03:10<31:15,  5.14s/it]Batches:   7%|▋         | 27/391 [03:15<31:34,  5.20s/it]Batches:   7%|▋         | 28/391 [03:20<31:28,  5.20s/it]Batches:   7%|▋         | 29/391 [03:25<30:58,  5.13s/it]Batches:   8%|▊         | 30/391 [03:30<30:48,  5.12s/it]Batches:   8%|▊         | 31/391 [03:35<30:39,  5.11s/it]Batches:   8%|▊         | 32/391 [03:40<30:00,  5.01s/it]Batches:   8%|▊         | 33/391 [03:45<29:23,  4.93s/it]Batches:   9%|▊         | 34/391 [03:50<29:55,  5.03s/it]Batches:   9%|▉         | 35/391 [03:55<29:45,  5.02s/it]Batches:   9%|▉         | 36/391 [04:00<28:49,  4.87s/it]Batches:   9%|▉         | 37/391 [04:04<28:18,  4.80s/it]Batches:  10%|▉         | 38/391 [04:09<28:15,  4.80s/it]Batches:  10%|▉         | 39/391 [04:14<27:38,  4.71s/it]Batches:  10%|█         | 40/391 [04:18<27:18,  4.67s/it]Batches:  10%|█         | 41/391 [04:23<26:39,  4.57s/it]Batches:  11%|█         | 42/391 [04:27<26:21,  4.53s/it]Batches:  11%|█         | 43/391 [04:32<27:03,  4.67s/it]Batches:  11%|█▏        | 44/391 [04:37<27:40,  4.79s/it]Batches:  12%|█▏        | 45/391 [04:41<26:40,  4.63s/it]Batches:  12%|█▏        | 46/391 [04:46<26:01,  4.53s/it]Batches:  12%|█▏        | 47/391 [04:50<25:27,  4.44s/it]Batches:  12%|█▏        | 48/391 [04:55<25:48,  4.51s/it]Batches:  13%|█▎        | 49/391 [04:59<25:12,  4.42s/it]Batches:  13%|█▎        | 50/391 [05:03<24:55,  4.39s/it]Batches:  13%|█▎        | 51/391 [05:07<24:56,  4.40s/it]Batches:  13%|█▎        | 52/391 [05:12<24:21,  4.31s/it]Batches:  14%|█▎        | 53/391 [05:16<25:00,  4.44s/it]Batches:  14%|█▍        | 54/391 [05:21<25:16,  4.50s/it]Batches:  14%|█▍        | 55/391 [05:26<25:42,  4.59s/it]Batches:  14%|█▍        | 56/391 [05:30<25:11,  4.51s/it]Batches:  15%|█▍        | 57/391 [05:34<24:26,  4.39s/it]Batches:  15%|█▍        | 58/391 [05:38<23:51,  4.30s/it]Batches:  15%|█▌        | 59/391 [05:42<23:35,  4.26s/it]Batches:  15%|█▌        | 60/391 [05:47<23:34,  4.27s/it]Batches:  16%|█▌        | 61/391 [05:51<23:01,  4.19s/it]Batches:  16%|█▌        | 62/391 [05:55<22:42,  4.14s/it]Batches:  16%|█▌        | 63/391 [05:59<22:06,  4.05s/it]Batches:  16%|█▋        | 64/391 [06:03<22:11,  4.07s/it]Batches:  17%|█▋        | 65/391 [06:07<22:21,  4.11s/it]Batches:  17%|█▋        | 66/391 [06:11<21:58,  4.06s/it]Batches:  17%|█▋        | 67/391 [06:15<22:07,  4.10s/it]Batches:  17%|█▋        | 68/391 [06:19<21:28,  3.99s/it]Batches:  18%|█▊        | 69/391 [06:23<21:19,  3.97s/it]Batches:  18%|█▊        | 70/391 [06:27<20:56,  3.91s/it]Batches:  18%|█▊        | 71/391 [06:31<21:20,  4.00s/it]Batches:  18%|█▊        | 72/391 [06:35<21:01,  3.96s/it]Batches:  19%|█▊        | 73/391 [06:38<20:24,  3.85s/it]Batches:  19%|█▉        | 74/391 [06:42<19:53,  3.76s/it]Batches:  19%|█▉        | 75/391 [06:45<19:29,  3.70s/it]Batches:  19%|█▉        | 76/391 [06:49<19:10,  3.65s/it]Batches:  20%|█▉        | 77/391 [06:55<22:41,  4.34s/it]Batches:  20%|█▉        | 78/391 [06:59<21:50,  4.19s/it]Batches:  20%|██        | 79/391 [07:02<20:54,  4.02s/it]Batches:  20%|██        | 80/391 [07:06<20:27,  3.95s/it]Batches:  21%|██        | 81/391 [07:09<19:40,  3.81s/it]Batches:  21%|██        | 82/391 [07:13<18:53,  3.67s/it]Batches:  21%|██        | 83/391 [07:16<18:40,  3.64s/it]Batches:  21%|██▏       | 84/391 [07:20<18:17,  3.57s/it]Batches:  22%|██▏       | 85/391 [07:23<17:51,  3.50s/it]Batches:  22%|██▏       | 86/391 [07:27<17:55,  3.53s/it]Batches:  22%|██▏       | 87/391 [07:30<17:26,  3.44s/it]Batches:  23%|██▎       | 88/391 [07:34<18:11,  3.60s/it]Batches:  23%|██▎       | 89/391 [07:38<18:44,  3.72s/it]Batches:  23%|██▎       | 90/391 [07:42<18:26,  3.68s/it]Batches:  23%|██▎       | 91/391 [07:45<17:41,  3.54s/it]Batches:  24%|██▎       | 92/391 [07:48<17:16,  3.47s/it]Batches:  24%|██▍       | 93/391 [07:52<17:20,  3.49s/it]Batches:  24%|██▍       | 94/391 [07:55<16:59,  3.43s/it]Batches:  24%|██▍       | 95/391 [07:58<16:44,  3.39s/it]Batches:  25%|██▍       | 96/391 [08:01<16:12,  3.30s/it]Batches:  25%|██▍       | 97/391 [08:05<16:16,  3.32s/it]Batches:  25%|██▌       | 98/391 [08:08<16:11,  3.31s/it]Batches:  25%|██▌       | 99/391 [08:11<16:00,  3.29s/it]Batches:  26%|██▌       | 100/391 [08:15<16:12,  3.34s/it]Batches:  26%|██▌       | 101/391 [08:18<15:54,  3.29s/it]Batches:  26%|██▌       | 102/391 [08:21<16:12,  3.37s/it]Batches:  26%|██▋       | 103/391 [08:25<16:10,  3.37s/it]Batches:  27%|██▋       | 104/391 [08:29<16:53,  3.53s/it]Batches:  27%|██▋       | 105/391 [08:32<16:13,  3.40s/it]Batches:  27%|██▋       | 106/391 [08:35<15:52,  3.34s/it]Batches:  27%|██▋       | 107/391 [08:38<15:40,  3.31s/it]Batches:  28%|██▊       | 108/391 [08:42<15:39,  3.32s/it]Batches:  28%|██▊       | 109/391 [08:45<15:13,  3.24s/it]Batches:  28%|██▊       | 110/391 [08:48<15:06,  3.23s/it]Batches:  28%|██▊       | 111/391 [08:51<15:44,  3.37s/it]Batches:  29%|██▊       | 112/391 [08:55<15:16,  3.29s/it]Batches:  29%|██▉       | 113/391 [08:58<14:43,  3.18s/it]Batches:  29%|██▉       | 114/391 [09:01<14:38,  3.17s/it]Batches:  29%|██▉       | 115/391 [09:04<14:20,  3.12s/it]Batches:  30%|██▉       | 116/391 [09:07<14:08,  3.09s/it]Batches:  30%|██▉       | 117/391 [09:10<13:48,  3.02s/it]Batches:  30%|███       | 118/391 [09:13<13:48,  3.03s/it]Batches:  30%|███       | 119/391 [09:16<13:37,  3.01s/it]Batches:  31%|███       | 120/391 [09:18<13:13,  2.93s/it]Batches:  31%|███       | 121/391 [09:21<13:15,  2.95s/it]Batches:  31%|███       | 122/391 [09:24<13:08,  2.93s/it]Batches:  31%|███▏      | 123/391 [09:27<13:05,  2.93s/it]Batches:  32%|███▏      | 124/391 [09:30<13:02,  2.93s/it]Batches:  32%|███▏      | 125/391 [09:33<12:51,  2.90s/it]Batches:  32%|███▏      | 126/391 [09:36<12:36,  2.86s/it]Batches:  32%|███▏      | 127/391 [09:39<12:39,  2.88s/it]Batches:  33%|███▎      | 128/391 [09:42<13:03,  2.98s/it]Batches:  33%|███▎      | 129/391 [09:45<12:54,  2.96s/it]Batches:  33%|███▎      | 130/391 [09:48<12:44,  2.93s/it]Batches:  34%|███▎      | 131/391 [09:51<13:39,  3.15s/it]Batches:  34%|███▍      | 132/391 [09:54<12:55,  2.99s/it]Batches:  34%|███▍      | 133/391 [09:57<12:41,  2.95s/it]Batches:  34%|███▍      | 134/391 [10:00<12:39,  2.96s/it]Batches:  35%|███▍      | 135/391 [10:03<13:39,  3.20s/it]Batches:  35%|███▍      | 136/391 [10:06<13:01,  3.07s/it]Batches:  35%|███▌      | 137/391 [10:09<12:31,  2.96s/it]Batches:  35%|███▌      | 138/391 [10:12<12:18,  2.92s/it]Batches:  36%|███▌      | 139/391 [10:14<11:59,  2.85s/it]Batches:  36%|███▌      | 140/391 [10:17<11:41,  2.80s/it]Batches:  36%|███▌      | 141/391 [10:20<11:33,  2.77s/it]Batches:  36%|███▋      | 142/391 [10:22<11:19,  2.73s/it]Batches:  37%|███▋      | 143/391 [10:25<11:18,  2.74s/it]Batches:  37%|███▋      | 144/391 [10:28<11:09,  2.71s/it]Batches:  37%|███▋      | 145/391 [10:30<11:02,  2.69s/it]Batches:  37%|███▋      | 146/391 [10:33<10:48,  2.65s/it]Batches:  38%|███▊      | 147/391 [10:36<10:42,  2.63s/it]Batches:  38%|███▊      | 148/391 [10:38<10:48,  2.67s/it]Batches:  38%|███▊      | 149/391 [10:43<12:44,  3.16s/it]Batches:  38%|███▊      | 150/391 [10:45<12:15,  3.05s/it]Batches:  39%|███▊      | 151/391 [10:49<12:11,  3.05s/it]Batches:  39%|███▉      | 152/391 [10:53<13:44,  3.45s/it]Batches:  39%|███▉      | 153/391 [10:55<12:32,  3.16s/it]Batches:  39%|███▉      | 154/391 [10:58<11:48,  2.99s/it]Batches:  40%|███▉      | 155/391 [11:01<11:20,  2.88s/it]Batches:  40%|███▉      | 156/391 [11:03<10:50,  2.77s/it]Batches:  40%|████      | 157/391 [11:06<10:26,  2.68s/it]Batches:  40%|████      | 158/391 [11:08<10:20,  2.66s/it]Batches:  41%|████      | 159/391 [11:11<10:05,  2.61s/it]Batches:  41%|████      | 160/391 [11:13<09:57,  2.59s/it]Batches:  41%|████      | 161/391 [11:16<10:10,  2.65s/it]Batches:  41%|████▏     | 162/391 [11:19<10:11,  2.67s/it]Batches:  42%|████▏     | 163/391 [11:21<10:07,  2.66s/it]Batches:  42%|████▏     | 164/391 [11:24<10:00,  2.64s/it]Batches:  42%|████▏     | 165/391 [11:27<10:18,  2.74s/it]Batches:  42%|████▏     | 166/391 [11:29<09:55,  2.64s/it]Batches:  43%|████▎     | 167/391 [11:32<09:39,  2.59s/it]Batches:  43%|████▎     | 168/391 [11:34<09:34,  2.57s/it]Batches:  43%|████▎     | 169/391 [11:37<09:41,  2.62s/it]Batches:  43%|████▎     | 170/391 [11:39<09:22,  2.54s/it]Batches:  44%|████▎     | 171/391 [11:42<09:05,  2.48s/it]Batches:  44%|████▍     | 172/391 [11:44<08:54,  2.44s/it]Batches:  44%|████▍     | 173/391 [11:47<08:53,  2.45s/it]Batches:  45%|████▍     | 174/391 [11:51<10:26,  2.89s/it]Batches:  45%|████▍     | 175/391 [11:53<09:55,  2.76s/it]Batches:  45%|████▌     | 176/391 [11:55<09:37,  2.69s/it]Batches:  45%|████▌     | 177/391 [11:58<09:23,  2.63s/it]Batches:  46%|████▌     | 178/391 [12:01<09:17,  2.62s/it]Batches:  46%|████▌     | 179/391 [12:03<09:26,  2.67s/it]Batches:  46%|████▌     | 180/391 [12:06<09:27,  2.69s/it]Batches:  46%|████▋     | 181/391 [12:09<09:13,  2.63s/it]Batches:  47%|████▋     | 182/391 [12:11<09:02,  2.60s/it]Batches:  47%|████▋     | 183/391 [12:14<09:04,  2.62s/it]Batches:  47%|████▋     | 184/391 [12:16<08:39,  2.51s/it]Batches:  47%|████▋     | 185/391 [12:18<08:23,  2.45s/it]Batches:  48%|████▊     | 186/391 [12:21<08:28,  2.48s/it]Batches:  48%|████▊     | 187/391 [12:23<08:15,  2.43s/it]Batches:  48%|████▊     | 188/391 [12:26<08:08,  2.40s/it]Batches:  48%|████▊     | 189/391 [12:28<08:01,  2.38s/it]Batches:  49%|████▊     | 190/391 [12:30<07:48,  2.33s/it]Batches:  49%|████▉     | 191/391 [12:32<07:46,  2.33s/it]Batches:  49%|████▉     | 192/391 [12:35<07:40,  2.31s/it]Batches:  49%|████▉     | 193/391 [12:37<07:50,  2.37s/it]Batches:  50%|████▉     | 194/391 [12:40<07:54,  2.41s/it]Batches:  50%|████▉     | 195/391 [12:42<07:32,  2.31s/it]Batches:  50%|█████     | 196/391 [12:44<07:23,  2.27s/it]Batches:  50%|█████     | 197/391 [12:46<07:16,  2.25s/it]Batches:  51%|█████     | 198/391 [12:48<07:11,  2.24s/it]Batches:  51%|█████     | 199/391 [12:51<07:09,  2.24s/it]Batches:  51%|█████     | 200/391 [12:53<07:05,  2.23s/it]Batches:  51%|█████▏    | 201/391 [12:55<07:01,  2.22s/it]Batches:  52%|█████▏    | 202/391 [12:57<06:49,  2.17s/it]Batches:  52%|█████▏    | 203/391 [12:59<06:46,  2.16s/it]Batches:  52%|█████▏    | 204/391 [13:02<07:38,  2.45s/it]Batches:  52%|█████▏    | 205/391 [13:05<07:36,  2.45s/it]Batches:  53%|█████▎    | 206/391 [13:07<07:20,  2.38s/it]Batches:  53%|█████▎    | 207/391 [13:09<06:58,  2.28s/it]Batches:  53%|█████▎    | 208/391 [13:11<06:52,  2.25s/it]Batches:  53%|█████▎    | 209/391 [13:13<06:38,  2.19s/it]Batches:  54%|█████▎    | 210/391 [13:15<06:29,  2.15s/it]Batches:  54%|█████▍    | 211/391 [13:18<06:36,  2.21s/it]Batches:  54%|█████▍    | 212/391 [13:20<06:21,  2.13s/it]Batches:  54%|█████▍    | 213/391 [13:22<06:20,  2.13s/it]Batches:  55%|█████▍    | 214/391 [13:24<06:13,  2.11s/it]Batches:  55%|█████▍    | 215/391 [13:26<06:23,  2.18s/it]Batches:  55%|█████▌    | 216/391 [13:28<06:10,  2.12s/it]Batches:  55%|█████▌    | 217/391 [13:30<06:10,  2.13s/it]Batches:  56%|█████▌    | 218/391 [13:32<05:56,  2.06s/it]Batches:  56%|█████▌    | 219/391 [13:35<06:21,  2.22s/it]Batches:  56%|█████▋    | 220/391 [13:37<06:07,  2.15s/it]Batches:  57%|█████▋    | 221/391 [13:39<05:50,  2.06s/it]Batches:  57%|█████▋    | 222/391 [13:41<05:55,  2.11s/it]Batches:  57%|█████▋    | 223/391 [13:43<05:50,  2.08s/it]Batches:  57%|█████▋    | 224/391 [13:45<05:39,  2.03s/it]Batches:  58%|█████▊    | 225/391 [13:47<05:45,  2.08s/it]Batches:  58%|█████▊    | 226/391 [13:49<05:39,  2.06s/it]Batches:  58%|█████▊    | 227/391 [13:51<05:40,  2.08s/it]Batches:  58%|█████▊    | 228/391 [13:53<05:37,  2.07s/it]Batches:  59%|█████▊    | 229/391 [13:55<05:40,  2.10s/it]Batches:  59%|█████▉    | 230/391 [13:57<05:26,  2.03s/it]Batches:  59%|█████▉    | 231/391 [14:00<05:41,  2.13s/it]Batches:  59%|█████▉    | 232/391 [14:01<05:27,  2.06s/it]Batches:  60%|█████▉    | 233/391 [14:03<05:23,  2.05s/it]Batches:  60%|█████▉    | 234/391 [14:05<05:13,  2.00s/it]Batches:  60%|██████    | 235/391 [14:07<05:01,  1.93s/it]Batches:  60%|██████    | 236/391 [14:09<04:54,  1.90s/it]Batches:  61%|██████    | 237/391 [14:11<04:48,  1.87s/it]Batches:  61%|██████    | 238/391 [14:13<04:47,  1.88s/it]Batches:  61%|██████    | 239/391 [14:15<04:59,  1.97s/it]Batches:  61%|██████▏   | 240/391 [14:17<04:53,  1.94s/it]Batches:  62%|██████▏   | 241/391 [14:18<04:40,  1.87s/it]Batches:  62%|██████▏   | 242/391 [14:20<04:33,  1.84s/it]Batches:  62%|██████▏   | 243/391 [14:22<04:26,  1.80s/it]Batches:  62%|██████▏   | 244/391 [14:24<04:21,  1.78s/it]Batches:  63%|██████▎   | 245/391 [14:26<05:00,  2.06s/it]Batches:  63%|██████▎   | 246/391 [14:28<04:51,  2.01s/it]Batches:  63%|██████▎   | 247/391 [14:30<04:46,  1.99s/it]Batches:  63%|██████▎   | 248/391 [14:33<05:03,  2.12s/it]Batches:  64%|██████▎   | 249/391 [14:34<04:40,  1.97s/it]Batches:  64%|██████▍   | 250/391 [14:36<04:35,  1.95s/it]Batches:  64%|██████▍   | 251/391 [14:38<04:19,  1.86s/it]Batches:  64%|██████▍   | 252/391 [14:39<04:09,  1.79s/it]Batches:  65%|██████▍   | 253/391 [14:41<04:04,  1.77s/it]Batches:  65%|██████▍   | 254/391 [14:43<03:56,  1.73s/it]Batches:  65%|██████▌   | 255/391 [14:45<04:04,  1.80s/it]Batches:  65%|██████▌   | 256/391 [14:46<03:56,  1.76s/it]Batches:  66%|██████▌   | 257/391 [14:48<03:47,  1.70s/it]Batches:  66%|██████▌   | 258/391 [14:50<03:44,  1.69s/it]Batches:  66%|██████▌   | 259/391 [14:51<03:37,  1.64s/it]Batches:  66%|██████▋   | 260/391 [14:53<03:39,  1.68s/it]Batches:  67%|██████▋   | 261/391 [14:55<04:06,  1.90s/it]Batches:  67%|██████▋   | 262/391 [14:57<04:04,  1.90s/it]Batches:  67%|██████▋   | 263/391 [14:59<03:50,  1.80s/it]Batches:  68%|██████▊   | 264/391 [15:01<03:58,  1.88s/it]Batches:  68%|██████▊   | 265/391 [15:02<03:43,  1.77s/it]Batches:  68%|██████▊   | 266/391 [15:05<03:55,  1.88s/it]Batches:  68%|██████▊   | 267/391 [15:06<03:45,  1.82s/it]Batches:  69%|██████▊   | 268/391 [15:08<03:31,  1.72s/it]Batches:  69%|██████▉   | 269/391 [15:09<03:24,  1.67s/it]Batches:  69%|██████▉   | 270/391 [15:11<03:14,  1.61s/it]Batches:  69%|██████▉   | 271/391 [15:12<03:19,  1.66s/it]Batches:  70%|██████▉   | 272/391 [15:15<04:05,  2.06s/it]Batches:  70%|██████▉   | 273/391 [15:17<03:42,  1.88s/it]Batches:  70%|███████   | 274/391 [15:18<03:26,  1.76s/it]Batches:  70%|███████   | 275/391 [15:20<03:26,  1.78s/it]Batches:  71%|███████   | 276/391 [15:22<03:25,  1.79s/it]Batches:  71%|███████   | 277/391 [15:24<03:19,  1.75s/it]Batches:  71%|███████   | 278/391 [15:26<03:30,  1.86s/it]Batches:  71%|███████▏  | 279/391 [15:27<03:21,  1.80s/it]Batches:  72%|███████▏  | 280/391 [15:29<03:06,  1.68s/it]Batches:  72%|███████▏  | 281/391 [15:31<03:05,  1.69s/it]Batches:  72%|███████▏  | 282/391 [15:32<02:57,  1.63s/it]Batches:  72%|███████▏  | 283/391 [15:34<02:51,  1.58s/it]Batches:  73%|███████▎  | 284/391 [15:35<02:43,  1.53s/it]Batches:  73%|███████▎  | 285/391 [15:37<02:42,  1.54s/it]Batches:  73%|███████▎  | 286/391 [15:38<02:37,  1.50s/it]Batches:  73%|███████▎  | 287/391 [15:39<02:30,  1.44s/it]Batches:  74%|███████▎  | 288/391 [15:41<02:29,  1.45s/it]Batches:  74%|███████▍  | 289/391 [15:42<02:27,  1.44s/it]Batches:  74%|███████▍  | 290/391 [15:44<02:24,  1.43s/it]Batches:  74%|███████▍  | 291/391 [15:45<02:22,  1.43s/it]Batches:  75%|███████▍  | 292/391 [15:46<02:22,  1.44s/it]Batches:  75%|███████▍  | 293/391 [15:48<02:15,  1.38s/it]Batches:  75%|███████▌  | 294/391 [15:49<02:24,  1.49s/it]Batches:  75%|███████▌  | 295/391 [15:51<02:16,  1.43s/it]Batches:  76%|███████▌  | 296/391 [15:52<02:11,  1.38s/it]Batches:  76%|███████▌  | 297/391 [15:53<02:07,  1.36s/it]Batches:  76%|███████▌  | 298/391 [15:55<02:02,  1.32s/it]Batches:  76%|███████▋  | 299/391 [15:56<02:02,  1.34s/it]Batches:  77%|███████▋  | 300/391 [15:57<02:02,  1.34s/it]Batches:  77%|███████▋  | 301/391 [15:58<01:57,  1.30s/it]Batches:  77%|███████▋  | 302/391 [16:00<02:03,  1.38s/it]Batches:  77%|███████▋  | 303/391 [16:01<01:58,  1.34s/it]Batches:  78%|███████▊  | 304/391 [16:03<01:53,  1.31s/it]Batches:  78%|███████▊  | 305/391 [16:04<01:47,  1.26s/it]Batches:  78%|███████▊  | 306/391 [16:05<01:43,  1.22s/it]Batches:  79%|███████▊  | 307/391 [16:06<01:50,  1.32s/it]Batches:  79%|███████▉  | 308/391 [16:08<01:47,  1.30s/it]Batches:  79%|███████▉  | 309/391 [16:09<01:51,  1.36s/it]Batches:  79%|███████▉  | 310/391 [16:10<01:44,  1.30s/it]Batches:  80%|███████▉  | 311/391 [16:12<01:48,  1.36s/it]Batches:  80%|███████▉  | 312/391 [16:13<01:42,  1.30s/it]Batches:  80%|████████  | 313/391 [16:14<01:38,  1.26s/it]Batches:  80%|████████  | 314/391 [16:15<01:36,  1.26s/it]Batches:  81%|████████  | 315/391 [16:16<01:31,  1.21s/it]Batches:  81%|████████  | 316/391 [16:18<01:38,  1.31s/it]Batches:  81%|████████  | 317/391 [16:19<01:38,  1.34s/it]Batches:  81%|████████▏ | 318/391 [16:20<01:30,  1.24s/it]Batches:  82%|████████▏ | 319/391 [16:22<01:35,  1.33s/it]Batches:  82%|████████▏ | 320/391 [16:23<01:29,  1.26s/it]Batches:  82%|████████▏ | 321/391 [16:24<01:30,  1.29s/it]Batches:  82%|████████▏ | 322/391 [16:26<01:29,  1.29s/it]Batches:  83%|████████▎ | 323/391 [16:27<01:22,  1.22s/it]Batches:  83%|████████▎ | 324/391 [16:28<01:19,  1.18s/it]Batches:  83%|████████▎ | 325/391 [16:29<01:12,  1.10s/it]Batches:  83%|████████▎ | 326/391 [16:30<01:16,  1.17s/it]Batches:  84%|████████▎ | 327/391 [16:31<01:19,  1.24s/it]Batches:  84%|████████▍ | 328/391 [16:32<01:11,  1.14s/it]Batches:  84%|████████▍ | 329/391 [16:34<01:11,  1.15s/it]Batches:  84%|████████▍ | 330/391 [16:34<01:06,  1.09s/it]Batches:  85%|████████▍ | 331/391 [16:36<01:06,  1.10s/it]Batches:  85%|████████▍ | 332/391 [16:37<01:07,  1.14s/it]Batches:  85%|████████▌ | 333/391 [16:38<01:04,  1.11s/it]Batches:  85%|████████▌ | 334/391 [16:39<01:00,  1.05s/it]Batches:  86%|████████▌ | 335/391 [16:40<00:56,  1.00s/it]Batches:  86%|████████▌ | 336/391 [16:40<00:51,  1.07it/s]Batches:  86%|████████▌ | 337/391 [16:41<00:52,  1.04it/s]Batches:  86%|████████▋ | 338/391 [16:42<00:49,  1.07it/s]Batches:  87%|████████▋ | 339/391 [16:44<00:53,  1.03s/it]Batches:  87%|████████▋ | 340/391 [16:45<00:55,  1.09s/it]Batches:  87%|████████▋ | 341/391 [16:46<00:49,  1.00it/s]Batches:  87%|████████▋ | 342/391 [16:47<00:49,  1.01s/it]Batches:  88%|████████▊ | 343/391 [16:48<00:48,  1.01s/it]Batches:  88%|████████▊ | 344/391 [16:48<00:43,  1.08it/s]Batches:  88%|████████▊ | 345/391 [16:49<00:40,  1.15it/s]Batches:  88%|████████▊ | 346/391 [16:50<00:42,  1.05it/s]Batches:  89%|████████▊ | 347/391 [16:51<00:41,  1.07it/s]Batches:  89%|████████▉ | 348/391 [16:52<00:40,  1.05it/s]Batches:  89%|████████▉ | 349/391 [16:53<00:40,  1.03it/s]Batches:  90%|████████▉ | 350/391 [16:54<00:37,  1.08it/s]Batches:  90%|████████▉ | 351/391 [16:55<00:33,  1.19it/s]Batches:  90%|█████████ | 352/391 [16:55<00:32,  1.19it/s]Batches:  90%|█████████ | 353/391 [16:56<00:31,  1.20it/s]Batches:  91%|█████████ | 354/391 [16:57<00:29,  1.26it/s]Batches:  91%|█████████ | 355/391 [16:58<00:28,  1.28it/s]Batches:  91%|█████████ | 356/391 [16:58<00:26,  1.31it/s]Batches:  91%|█████████▏| 357/391 [16:59<00:26,  1.29it/s]Batches:  92%|█████████▏| 358/391 [17:00<00:25,  1.32it/s]Batches:  92%|█████████▏| 359/391 [17:01<00:24,  1.31it/s]Batches:  92%|█████████▏| 360/391 [17:01<00:23,  1.35it/s]Batches:  92%|█████████▏| 361/391 [17:02<00:22,  1.32it/s]Batches:  93%|█████████▎| 362/391 [17:03<00:20,  1.40it/s]Batches:  93%|█████████▎| 363/391 [17:04<00:19,  1.43it/s]Batches:  93%|█████████▎| 364/391 [17:04<00:18,  1.45it/s]Batches:  93%|█████████▎| 365/391 [17:05<00:16,  1.54it/s]Batches:  94%|█████████▎| 366/391 [17:05<00:16,  1.53it/s]Batches:  94%|█████████▍| 367/391 [17:06<00:18,  1.31it/s]Batches:  94%|█████████▍| 368/391 [17:07<00:16,  1.41it/s]Batches:  94%|█████████▍| 369/391 [17:08<00:14,  1.52it/s]Batches:  95%|█████████▍| 370/391 [17:08<00:13,  1.59it/s]Batches:  95%|█████████▍| 371/391 [17:09<00:12,  1.65it/s]Batches:  95%|█████████▌| 372/391 [17:09<00:11,  1.68it/s]Batches:  95%|█████████▌| 373/391 [17:10<00:10,  1.70it/s]Batches:  96%|█████████▌| 374/391 [17:10<00:09,  1.80it/s]Batches:  96%|█████████▌| 375/391 [17:11<00:08,  1.93it/s]Batches:  96%|█████████▌| 376/391 [17:11<00:07,  1.99it/s]Batches:  96%|█████████▋| 377/391 [17:12<00:06,  2.03it/s]Batches:  97%|█████████▋| 378/391 [17:12<00:06,  2.09it/s]Batches:  97%|█████████▋| 379/391 [17:13<00:06,  1.98it/s]Batches:  97%|█████████▋| 380/391 [17:13<00:05,  2.16it/s]Batches:  97%|█████████▋| 381/391 [17:13<00:04,  2.18it/s]Batches:  98%|█████████▊| 382/391 [17:14<00:03,  2.30it/s]Batches:  98%|█████████▊| 383/391 [17:14<00:03,  2.44it/s]Batches:  98%|█████████▊| 384/391 [17:15<00:02,  2.48it/s]Batches:  98%|█████████▊| 385/391 [17:15<00:02,  2.41it/s]Batches:  99%|█████████▊| 386/391 [17:15<00:02,  2.48it/s]Batches:  99%|█████████▉| 387/391 [17:16<00:01,  2.62it/s]Batches:  99%|█████████▉| 388/391 [17:16<00:01,  2.70it/s]Batches:  99%|█████████▉| 389/391 [17:16<00:00,  2.75it/s]Batches: 100%|█████████▉| 390/391 [17:17<00:00,  2.97it/s]Batches: 100%|██████████| 391/391 [17:17<00:00,  3.59it/s]Batches: 100%|██████████| 391/391 [17:17<00:00,  2.65s/it]
+  saved ../data/nq-gold-bge-100k.hdf5 (1201s)
+[4/5] curves ...
+  [random] s0 f=0.00 hit=0.950 avail_loss=0.000 substrate=0.050
+  [random] s0 f=0.05 hit=0.908 avail_loss=0.044 substrate=0.048
+  [random] s0 f=0.10 hit=0.860 avail_loss=0.092 substrate=0.048
+  [random] s0 f=0.15 hit=0.828 avail_loss=0.130 substrate=0.042
+  [random] s0 f=0.20 hit=0.792 avail_loss=0.164 substrate=0.044
+  [random] s0 f=0.25 hit=0.752 avail_loss=0.208 substrate=0.040
+  [random] s0 f=0.30 hit=0.712 avail_loss=0.248 substrate=0.040
+  [random] s0 f=0.35 hit=0.672 avail_loss=0.290 substrate=0.038
+  [random] s0 f=0.40 hit=0.626 avail_loss=0.342 substrate=0.032
+  [random] s0 f=0.45 hit=0.580 avail_loss=0.386 substrate=0.034
+  [random] s0 f=0.50 hit=0.540 avail_loss=0.436 substrate=0.024
+  [random] s0 f=0.55 hit=0.482 avail_loss=0.498 substrate=0.020
+  [random] s0 f=0.60 hit=0.418 avail_loss=0.566 substrate=0.016
+  [random] s0 f=0.65 hit=0.362 avail_loss=0.622 substrate=0.016
+  [random] s0 f=0.70 hit=0.304 avail_loss=0.678 substrate=0.018
+  [random] s0 f=0.75 hit=0.240 avail_loss=0.744 substrate=0.016
+  [random] s0 f=0.80 hit=0.186 avail_loss=0.796 substrate=0.018
+  [random] s0 f=0.85 hit=0.132 avail_loss=0.844 substrate=0.024
+  [random] s0 f=0.90 hit=0.068 avail_loss=0.890 substrate=0.042
+  [random] s0 f=0.95 hit=0.006 avail_loss=0.946 substrate=0.048
+  [hub] s0 f=0.00 hit=0.950 avail_loss=0.000 substrate=0.050
+  [hub] s0 f=0.05 hit=0.898 avail_loss=0.054 substrate=0.048
+  [hub] s0 f=0.10 hit=0.854 avail_loss=0.102 substrate=0.044
+  [hub] s0 f=0.15 hit=0.808 avail_loss=0.154 substrate=0.038
+  [hub] s0 f=0.20 hit=0.742 avail_loss=0.224 substrate=0.034
+  [hub] s0 f=0.25 hit=0.694 avail_loss=0.274 substrate=0.032
+  [hub] s0 f=0.30 hit=0.650 avail_loss=0.324 substrate=0.026
+  [hub] s0 f=0.35 hit=0.594 avail_loss=0.386 substrate=0.020
+  [hub] s0 f=0.40 hit=0.548 avail_loss=0.430 substrate=0.022
+  [hub] s0 f=0.45 hit=0.494 avail_loss=0.492 substrate=0.014
+  [hub] s0 f=0.50 hit=0.448 avail_loss=0.538 substrate=0.014
+  [hub] s0 f=0.55 hit=0.412 avail_loss=0.566 substrate=0.022
+  [hub] s0 f=0.60 hit=0.360 avail_loss=0.610 substrate=0.030
+  [hub] s0 f=0.65 hit=0.320 avail_loss=0.658 substrate=0.022
+  [hub] s0 f=0.70 hit=0.262 avail_loss=0.696 substrate=0.042
+  [hub] s0 f=0.75 hit=0.220 avail_loss=0.726 substrate=0.054
+  [hub] s0 f=0.80 hit=0.114 avail_loss=0.810 substrate=0.076
+  [hub] s0 f=0.85 hit=0.056 avail_loss=0.838 substrate=0.106
+  [hub] s0 f=0.90 hit=0.004 avail_loss=0.878 substrate=0.118
+  [hub] s0 f=0.95 hit=0.000 avail_loss=0.932 substrate=0.068
+  [antihub] s0 f=0.00 hit=0.950 avail_loss=0.000 substrate=0.050
+  [antihub] s0 f=0.05 hit=0.888 avail_loss=0.062 substrate=0.050
+  [antihub] s0 f=0.10 hit=0.842 avail_loss=0.112 substrate=0.046
+  [antihub] s0 f=0.15 hit=0.828 avail_loss=0.126 substrate=0.046
+  [antihub] s0 f=0.20 hit=0.796 avail_loss=0.158 substrate=0.046
+  [antihub] s0 f=0.25 hit=0.740 avail_loss=0.218 substrate=0.042
+  [antihub] s0 f=0.30 hit=0.704 avail_loss=0.258 substrate=0.038
+  [antihub] s0 f=0.35 hit=0.668 avail_loss=0.296 substrate=0.036
+  [antihub] s0 f=0.40 hit=0.636 avail_loss=0.334 substrate=0.030
+  [antihub] s0 f=0.45 hit=0.610 avail_loss=0.366 substrate=0.024
+  [antihub] s0 f=0.50 hit=0.578 avail_loss=0.404 substrate=0.018
+  [antihub] s0 f=0.55 hit=0.550 avail_loss=0.434 substrate=0.016
+  [antihub] s0 f=0.60 hit=0.460 avail_loss=0.530 substrate=0.010
+  [antihub] s0 f=0.65 hit=0.438 avail_loss=0.554 substrate=0.008
+  [antihub] s0 f=0.70 hit=0.344 avail_loss=0.650 substrate=0.006
+  [antihub] s0 f=0.75 hit=0.310 avail_loss=0.688 substrate=0.002
+  [antihub] s0 f=0.80 hit=0.252 avail_loss=0.744 substrate=0.004
+  [antihub] s0 f=0.85 hit=0.188 avail_loss=0.810 substrate=0.002
+  [antihub] s0 f=0.90 hit=0.132 avail_loss=0.864 substrate=0.004
+  [antihub] s0 f=0.95 hit=0.066 avail_loss=0.926 substrate=0.008
+  [relevance] s0 f=0.00 hit=0.950 avail_loss=0.000 substrate=0.050
+  [relevance] s0 f=0.05 hit=0.134 avail_loss=0.858 substrate=0.008
+  [relevance] s0 f=0.10 hit=0.000 avail_loss=0.990 substrate=0.010
+  [relevance] s0 f=0.15 hit=0.002 avail_loss=0.990 substrate=0.008
+  [relevance] s0 f=0.20 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s0 f=0.25 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s0 f=0.30 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s0 f=0.35 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s0 f=0.40 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s0 f=0.45 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s0 f=0.50 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s0 f=0.55 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s0 f=0.60 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s0 f=0.65 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s0 f=0.70 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s0 f=0.75 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s0 f=0.80 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s0 f=0.85 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s0 f=0.90 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s0 f=0.95 hit=0.000 avail_loss=1.000 substrate=0.000
+  [random] s1 f=0.00 hit=0.952 avail_loss=0.000 substrate=0.048
+  [random] s1 f=0.05 hit=0.902 avail_loss=0.050 substrate=0.048
+  [random] s1 f=0.10 hit=0.870 avail_loss=0.086 substrate=0.044
+  [random] s1 f=0.15 hit=0.836 avail_loss=0.126 substrate=0.038
+  [random] s1 f=0.20 hit=0.792 avail_loss=0.176 substrate=0.032
+  [random] s1 f=0.25 hit=0.742 avail_loss=0.226 substrate=0.032
+  [random] s1 f=0.30 hit=0.718 avail_loss=0.254 substrate=0.028
+  [random] s1 f=0.35 hit=0.682 avail_loss=0.290 substrate=0.028
+  [random] s1 f=0.40 hit=0.636 avail_loss=0.340 substrate=0.024
+  [random] s1 f=0.45 hit=0.562 avail_loss=0.416 substrate=0.022
+  [random] s1 f=0.50 hit=0.520 avail_loss=0.460 substrate=0.020
+  [random] s1 f=0.55 hit=0.466 avail_loss=0.516 substrate=0.018
+  [random] s1 f=0.60 hit=0.408 avail_loss=0.578 substrate=0.014
+  [random] s1 f=0.65 hit=0.376 avail_loss=0.612 substrate=0.012
+  [random] s1 f=0.70 hit=0.322 avail_loss=0.662 substrate=0.016
+  [random] s1 f=0.75 hit=0.272 avail_loss=0.712 substrate=0.016
+  [random] s1 f=0.80 hit=0.222 avail_loss=0.766 substrate=0.012
+  [random] s1 f=0.85 hit=0.148 avail_loss=0.822 substrate=0.030
+  [random] s1 f=0.90 hit=0.072 avail_loss=0.892 substrate=0.036
+  [random] s1 f=0.95 hit=0.006 avail_loss=0.944 substrate=0.050
+  [hub] s1 f=0.00 hit=0.952 avail_loss=0.000 substrate=0.048
+  [hub] s1 f=0.05 hit=0.898 avail_loss=0.056 substrate=0.046
+  [hub] s1 f=0.10 hit=0.850 avail_loss=0.106 substrate=0.044
+  [hub] s1 f=0.15 hit=0.806 avail_loss=0.152 substrate=0.042
+  [hub] s1 f=0.20 hit=0.740 avail_loss=0.226 substrate=0.034
+  [hub] s1 f=0.25 hit=0.692 avail_loss=0.276 substrate=0.032
+  [hub] s1 f=0.30 hit=0.660 avail_loss=0.312 substrate=0.028
+  [hub] s1 f=0.35 hit=0.598 avail_loss=0.382 substrate=0.020
+  [hub] s1 f=0.40 hit=0.572 avail_loss=0.408 substrate=0.020
+  [hub] s1 f=0.45 hit=0.480 avail_loss=0.498 substrate=0.022
+  [hub] s1 f=0.50 hit=0.430 avail_loss=0.552 substrate=0.018
+  [hub] s1 f=0.55 hit=0.384 avail_loss=0.596 substrate=0.020
+  [hub] s1 f=0.60 hit=0.350 avail_loss=0.632 substrate=0.018
+  [hub] s1 f=0.65 hit=0.324 avail_loss=0.656 substrate=0.020
+  [hub] s1 f=0.70 hit=0.282 avail_loss=0.696 substrate=0.022
+  [hub] s1 f=0.75 hit=0.206 avail_loss=0.750 substrate=0.044
+  [hub] s1 f=0.80 hit=0.118 avail_loss=0.812 substrate=0.070
+  [hub] s1 f=0.85 hit=0.056 avail_loss=0.852 substrate=0.092
+  [hub] s1 f=0.90 hit=0.000 avail_loss=0.882 substrate=0.118
+  [hub] s1 f=0.95 hit=0.000 avail_loss=0.946 substrate=0.054
+  [antihub] s1 f=0.00 hit=0.952 avail_loss=0.000 substrate=0.048
+  [antihub] s1 f=0.05 hit=0.900 avail_loss=0.058 substrate=0.042
+  [antihub] s1 f=0.10 hit=0.856 avail_loss=0.102 substrate=0.042
+  [antihub] s1 f=0.15 hit=0.832 avail_loss=0.124 substrate=0.044
+  [antihub] s1 f=0.20 hit=0.806 avail_loss=0.150 substrate=0.044
+  [antihub] s1 f=0.25 hit=0.748 avail_loss=0.218 substrate=0.034
+  [antihub] s1 f=0.30 hit=0.718 avail_loss=0.250 substrate=0.032
+  [antihub] s1 f=0.35 hit=0.698 avail_loss=0.272 substrate=0.030
+  [antihub] s1 f=0.40 hit=0.664 avail_loss=0.308 substrate=0.028
+  [antihub] s1 f=0.45 hit=0.626 avail_loss=0.350 substrate=0.024
+  [antihub] s1 f=0.50 hit=0.576 avail_loss=0.404 substrate=0.020
+  [antihub] s1 f=0.55 hit=0.540 avail_loss=0.442 substrate=0.018
+  [antihub] s1 f=0.60 hit=0.464 avail_loss=0.524 substrate=0.012
+  [antihub] s1 f=0.65 hit=0.438 avail_loss=0.556 substrate=0.006
+  [antihub] s1 f=0.70 hit=0.354 avail_loss=0.642 substrate=0.004
+  [antihub] s1 f=0.75 hit=0.328 avail_loss=0.670 substrate=0.002
+  [antihub] s1 f=0.80 hit=0.270 avail_loss=0.728 substrate=0.002
+  [antihub] s1 f=0.85 hit=0.180 avail_loss=0.818 substrate=0.002
+  [antihub] s1 f=0.90 hit=0.130 avail_loss=0.868 substrate=0.002
+  [antihub] s1 f=0.95 hit=0.062 avail_loss=0.932 substrate=0.006
+  [relevance] s1 f=0.00 hit=0.952 avail_loss=0.000 substrate=0.048
+  [relevance] s1 f=0.05 hit=0.134 avail_loss=0.858 substrate=0.008
+  [relevance] s1 f=0.10 hit=0.000 avail_loss=0.990 substrate=0.010
+  [relevance] s1 f=0.15 hit=0.002 avail_loss=0.990 substrate=0.008
+  [relevance] s1 f=0.20 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s1 f=0.25 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s1 f=0.30 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s1 f=0.35 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s1 f=0.40 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s1 f=0.45 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s1 f=0.50 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s1 f=0.55 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s1 f=0.60 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s1 f=0.65 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s1 f=0.70 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s1 f=0.75 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s1 f=0.80 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s1 f=0.85 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s1 f=0.90 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s1 f=0.95 hit=0.000 avail_loss=1.000 substrate=0.000
+  [random] s2 f=0.00 hit=0.952 avail_loss=0.000 substrate=0.048
+  [random] s2 f=0.05 hit=0.924 avail_loss=0.030 substrate=0.046
+  [random] s2 f=0.10 hit=0.868 avail_loss=0.086 substrate=0.046
+  [random] s2 f=0.15 hit=0.836 avail_loss=0.126 substrate=0.038
+  [random] s2 f=0.20 hit=0.800 avail_loss=0.164 substrate=0.036
+  [random] s2 f=0.25 hit=0.756 avail_loss=0.210 substrate=0.034
+  [random] s2 f=0.30 hit=0.714 avail_loss=0.258 substrate=0.028
+  [random] s2 f=0.35 hit=0.668 avail_loss=0.304 substrate=0.028
+  [random] s2 f=0.40 hit=0.618 avail_loss=0.360 substrate=0.022
+  [random] s2 f=0.45 hit=0.564 avail_loss=0.416 substrate=0.020
+  [random] s2 f=0.50 hit=0.520 avail_loss=0.462 substrate=0.018
+  [random] s2 f=0.55 hit=0.470 avail_loss=0.512 substrate=0.018
+  [random] s2 f=0.60 hit=0.418 avail_loss=0.568 substrate=0.014
+  [random] s2 f=0.65 hit=0.364 avail_loss=0.624 substrate=0.012
+  [random] s2 f=0.70 hit=0.318 avail_loss=0.672 substrate=0.010
+  [random] s2 f=0.75 hit=0.274 avail_loss=0.712 substrate=0.014
+  [random] s2 f=0.80 hit=0.236 avail_loss=0.752 substrate=0.012
+  [random] s2 f=0.85 hit=0.160 avail_loss=0.818 substrate=0.022
+  [random] s2 f=0.90 hit=0.088 avail_loss=0.886 substrate=0.026
+  [random] s2 f=0.95 hit=0.002 avail_loss=0.952 substrate=0.046
+  [hub] s2 f=0.00 hit=0.952 avail_loss=0.000 substrate=0.048
+  [hub] s2 f=0.05 hit=0.892 avail_loss=0.064 substrate=0.044
+  [hub] s2 f=0.10 hit=0.834 avail_loss=0.122 substrate=0.044
+  [hub] s2 f=0.15 hit=0.784 avail_loss=0.176 substrate=0.040
+  [hub] s2 f=0.20 hit=0.718 avail_loss=0.244 substrate=0.038
+  [hub] s2 f=0.25 hit=0.662 avail_loss=0.300 substrate=0.038
+  [hub] s2 f=0.30 hit=0.640 avail_loss=0.326 substrate=0.034
+  [hub] s2 f=0.35 hit=0.580 avail_loss=0.394 substrate=0.026
+  [hub] s2 f=0.40 hit=0.550 avail_loss=0.424 substrate=0.026
+  [hub] s2 f=0.45 hit=0.482 avail_loss=0.496 substrate=0.022
+  [hub] s2 f=0.50 hit=0.444 avail_loss=0.526 substrate=0.030
+  [hub] s2 f=0.55 hit=0.414 avail_loss=0.560 substrate=0.026
+  [hub] s2 f=0.60 hit=0.382 avail_loss=0.596 substrate=0.022
+  [hub] s2 f=0.65 hit=0.342 avail_loss=0.636 substrate=0.022
+  [hub] s2 f=0.70 hit=0.290 avail_loss=0.684 substrate=0.026
+  [hub] s2 f=0.75 hit=0.214 avail_loss=0.734 substrate=0.052
+  [hub] s2 f=0.80 hit=0.134 avail_loss=0.800 substrate=0.066
+  [hub] s2 f=0.85 hit=0.052 avail_loss=0.844 substrate=0.104
+  [hub] s2 f=0.90 hit=0.000 avail_loss=0.892 substrate=0.108
+  [hub] s2 f=0.95 hit=0.000 avail_loss=0.932 substrate=0.068
+  [antihub] s2 f=0.00 hit=0.952 avail_loss=0.000 substrate=0.048
+  [antihub] s2 f=0.05 hit=0.900 avail_loss=0.056 substrate=0.044
+  [antihub] s2 f=0.10 hit=0.842 avail_loss=0.114 substrate=0.044
+  [antihub] s2 f=0.15 hit=0.816 avail_loss=0.140 substrate=0.044
+  [antihub] s2 f=0.20 hit=0.790 avail_loss=0.166 substrate=0.044
+  [antihub] s2 f=0.25 hit=0.730 avail_loss=0.230 substrate=0.040
+  [antihub] s2 f=0.30 hit=0.692 avail_loss=0.270 substrate=0.038
+  [antihub] s2 f=0.35 hit=0.656 avail_loss=0.310 substrate=0.034
+  [antihub] s2 f=0.40 hit=0.636 avail_loss=0.336 substrate=0.028
+  [antihub] s2 f=0.45 hit=0.604 avail_loss=0.370 substrate=0.026
+  [antihub] s2 f=0.50 hit=0.578 avail_loss=0.402 substrate=0.020
+  [antihub] s2 f=0.55 hit=0.552 avail_loss=0.432 substrate=0.016
+  [antihub] s2 f=0.60 hit=0.482 avail_loss=0.512 substrate=0.006
+  [antihub] s2 f=0.65 hit=0.428 avail_loss=0.566 substrate=0.006
+  [antihub] s2 f=0.70 hit=0.376 avail_loss=0.620 substrate=0.004
+  [antihub] s2 f=0.75 hit=0.350 avail_loss=0.646 substrate=0.004
+  [antihub] s2 f=0.80 hit=0.288 avail_loss=0.710 substrate=0.002
+  [antihub] s2 f=0.85 hit=0.204 avail_loss=0.792 substrate=0.004
+  [antihub] s2 f=0.90 hit=0.136 avail_loss=0.860 substrate=0.004
+  [antihub] s2 f=0.95 hit=0.072 avail_loss=0.922 substrate=0.006
+  [relevance] s2 f=0.00 hit=0.952 avail_loss=0.000 substrate=0.048
+  [relevance] s2 f=0.05 hit=0.134 avail_loss=0.858 substrate=0.008
+  [relevance] s2 f=0.10 hit=0.000 avail_loss=0.990 substrate=0.010
+  [relevance] s2 f=0.15 hit=0.002 avail_loss=0.990 substrate=0.008
+  [relevance] s2 f=0.20 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s2 f=0.25 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s2 f=0.30 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s2 f=0.35 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s2 f=0.40 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s2 f=0.45 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s2 f=0.50 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s2 f=0.55 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s2 f=0.60 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s2 f=0.65 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s2 f=0.70 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s2 f=0.75 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s2 f=0.80 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s2 f=0.85 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s2 f=0.90 hit=0.000 avail_loss=1.000 substrate=0.000
+  [relevance] s2 f=0.95 hit=0.000 avail_loss=1.000 substrate=0.000
+[5/5] ===== 요약 (hit@10 반감점 & f=0.5 분해) =====
+  random     fc_gold=0.55  @f=0.5: hit=0.527 avail=0.453 substrate=0.021
+  hub        fc_gold=0.5  @f=0.5: hit=0.441 avail=0.539 substrate=0.021
+  relevance  fc_gold=0.05  @f=0.5: hit=0.000 avail=1.000 substrate=0.000
+  antihub    fc_gold=0.6000000000000001  @f=0.5: hit=0.577 avail=0.403 substrate=0.019
+[done] 1779s -> ../results/nq_gold.npz

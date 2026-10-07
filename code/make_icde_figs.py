@@ -3,7 +3,7 @@
 import numpy as np, matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-R, OUT = "../results", "../paper-edbt/figures"
+R, OUT = "../results", "../figures"
 plt.rcParams.update({"font.size": 8.5, "axes.spines.top": False, "axes.spines.right": False,
                      "axes.labelsize": 10, "legend.fontsize": 7.5, "pdf.fonttype": 42})
 # 마스터 팔레트 (역할 기반, 전 그림 공통)

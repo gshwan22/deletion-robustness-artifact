@@ -1,0 +1,34 @@
+  [sift] s0 random repair=0 rec@0.05/0.10/0.20=1.000/1.000/1.000 (26s)
+  [sift] s0 random repair=1 rec@0.05/0.10/0.20=1.000/1.000/1.000 (64s)
+  [sift] s0 hub    repair=0 rec@0.05/0.10/0.20=1.000/1.000/0.998 (87s)
+  [sift] s0 hub    repair=1 rec@0.05/0.10/0.20=1.000/1.000/0.998 (131s)
+  [sift] s1 random repair=0 rec@0.05/0.10/0.20=1.000/1.000/1.000 (157s)
+  [sift] s1 random repair=1 rec@0.05/0.10/0.20=1.000/1.000/1.000 (195s)
+  [sift] s1 hub    repair=0 rec@0.05/0.10/0.20=1.000/1.000/0.999 (217s)
+  [sift] s1 hub    repair=1 rec@0.05/0.10/0.20=1.000/1.000/1.000 (260s)
+  [sift] s2 random repair=0 rec@0.05/0.10/0.20=1.000/1.000/1.000 (286s)
+  [sift] s2 random repair=1 rec@0.05/0.10/0.20=1.000/1.000/0.999 (324s)
+  [sift] s2 hub    repair=0 rec@0.05/0.10/0.20=1.000/1.000/1.000 (346s)
+  [sift] s2 hub    repair=1 rec@0.05/0.10/0.20=1.000/1.000/1.000 (389s)
+  [gist] s0 random repair=0 rec@0.05/0.10/0.20=0.995/0.992/0.990 (440s)
+  [gist] s0 random repair=1 rec@0.05/0.10/0.20=0.994/0.991/0.980 (495s)
+  [gist] s0 hub    repair=0 rec@0.05/0.10/0.20=0.985/0.967/0.893 (525s)
+  [gist] s0 hub    repair=1 rec@0.05/0.10/0.20=0.987/0.978/0.951 (601s)
+  [gist] s1 random repair=0 rec@0.05/0.10/0.20=0.991/0.989/0.990 (652s)
+  [gist] s1 random repair=1 rec@0.05/0.10/0.20=0.991/0.990/0.983 (707s)
+  [gist] s1 hub    repair=0 rec@0.05/0.10/0.20=0.985/0.968/0.905 (737s)
+  [gist] s1 hub    repair=1 rec@0.05/0.10/0.20=0.985/0.972/0.951 (813s)
+  [gist] s2 random repair=0 rec@0.05/0.10/0.20=0.992/0.989/0.986 (864s)
+  [gist] s2 random repair=1 rec@0.05/0.10/0.20=0.992/0.992/0.983 (920s)
+  [gist] s2 hub    repair=0 rec@0.05/0.10/0.20=0.989/0.973/0.899 (950s)
+  [gist] s2 hub    repair=1 rec@0.05/0.10/0.20=0.988/0.976/0.956 (1026s)
+===== c7 요약: recall @ f=0.05/0.10/0.20 (3s 평균) =====
+  sift random norep: 1.000 / 1.000 / 1.000
+  sift random rep  : 1.000 / 1.000 / 1.000
+  sift hub    norep: 1.000 / 1.000 / 0.999
+  sift hub    rep  : 1.000 / 1.000 / 0.999
+  gist random norep: 0.993 / 0.990 / 0.989
+  gist random rep  : 0.993 / 0.991 / 0.982
+  gist hub    norep: 0.986 / 0.970 / 0.899
+  gist hub    rep  : 0.987 / 0.975 / 0.953
+[done] 1026s

@@ -1,0 +1,79 @@
+nohup: 입력 무시
+===== h3: 구조 편향 비율 mu(f)/f (시드 0~2 평균) =====
+  [sift] random   f=.05:1.00  .10:0.99  .20:1.00  .30:1.00  .50:1.00
+  [sift] hub      f=.05:1.92  .10:1.76  .20:1.58  .30:1.46  .50:1.30
+  [sift] oldest   f=.05:0.97  .10:1.01  .20:1.02  .30:1.02  .50:1.02
+  [sift] newest   f=.05:0.98  .10:1.00  .20:0.98  .30:0.98  .50:0.98
+  [gist] random   f=.05:1.00  .10:0.99  .20:1.00  .30:1.00  .50:1.00
+  [gist] hub      f=.05:3.73  .10:3.06  .20:2.43  .30:2.07  .50:1.62
+  [gist] oldest   f=.05:1.00  .10:1.01  .20:1.00  .30:1.00  .50:0.99
+  [gist] newest   f=.05:0.99  .10:1.00  .20:1.00  .30:1.01  .50:1.01
+  해석: 1.0 = 질량 중립, >1 = 허브 편향, <1 = 저차수 편향
+===== h2: 단일 고정 진입점 편향 (R=1 vs R=16) =====
+  recall_at 시그니처: (base, alive, nbrs, queries, rng, beam=512, k=10)
+  recall_at 에 진입점 수 인자가 없음 → c_common 내부 상수 이름 탐색
+  후보 상수: []
+  [h2] 실패: 진입점 인자/상수 없음
+  [h2] 실패: 진입점 인자/상수 없음
+  [h2] 실패: 진입점 인자/상수 없음
+  [h2] 실패: 진입점 인자/상수 없음
+  [sift hub    R= 1] recall@f=0/.3/.5/.7 = nan/nan/nan/nan
+  [h2] 실패: 진입점 인자/상수 없음
+  [h2] 실패: 진입점 인자/상수 없음
+  [h2] 실패: 진입점 인자/상수 없음
+  [h2] 실패: 진입점 인자/상수 없음
+  [sift hub    R=16] recall@f=0/.3/.5/.7 = nan/nan/nan/nan
+  [h2] 실패: 진입점 인자/상수 없음
+  [h2] 실패: 진입점 인자/상수 없음
+  [h2] 실패: 진입점 인자/상수 없음
+  [h2] 실패: 진입점 인자/상수 없음
+  [sift random R= 1] recall@f=0/.3/.5/.7 = nan/nan/nan/nan
+  [h2] 실패: 진입점 인자/상수 없음
+  [h2] 실패: 진입점 인자/상수 없음
+  [h2] 실패: 진입점 인자/상수 없음
+  [h2] 실패: 진입점 인자/상수 없음
+  [sift random R=16] recall@f=0/.3/.5/.7 = nan/nan/nan/nan
+  [h2] 실패: 진입점 인자/상수 없음
+  [h2] 실패: 진입점 인자/상수 없음
+  [h2] 실패: 진입점 인자/상수 없음
+  [h2] 실패: 진입점 인자/상수 없음
+  [gist hub    R= 1] recall@f=0/.3/.5/.7 = nan/nan/nan/nan
+  [h2] 실패: 진입점 인자/상수 없음
+  [h2] 실패: 진입점 인자/상수 없음
+  [h2] 실패: 진입점 인자/상수 없음
+  [h2] 실패: 진입점 인자/상수 없음
+  [gist hub    R=16] recall@f=0/.3/.5/.7 = nan/nan/nan/nan
+  [h2] 실패: 진입점 인자/상수 없음
+  [h2] 실패: 진입점 인자/상수 없음
+  [h2] 실패: 진입점 인자/상수 없음
+  [h2] 실패: 진입점 인자/상수 없음
+  [gist random R= 1] recall@f=0/.3/.5/.7 = nan/nan/nan/nan
+  [h2] 실패: 진입점 인자/상수 없음
+  [h2] 실패: 진입점 인자/상수 없음
+  [h2] 실패: 진입점 인자/상수 없음
+  [h2] 실패: 진입점 인자/상수 없음
+  [gist random R=16] recall@f=0/.3/.5/.7 = nan/nan/nan/nan
+  해석: R=1 이 R=16 대비 낮게 + 비단조로 나오면 단일 진입점 인공물의 크기
+===== h1: recall 프로빙 정책 vs 개수/질량 =====
+  [h1] gist hub    probe_20_0.95  : emax=0.075±0.014  C_r=3.0  probe_queries=480  (454s)
+  [h1] gist hub    probe_20_0.90  : emax=0.162±0.019  C_r=2.0  probe_queries=480  (1006s)
+  [h1] gist hub    probe_100_0.95 : emax=0.062±0.003  C_r=3.0  probe_queries=2400  (1924s)
+  [h1] gist hub    probe_100_0.90 : emax=0.113±0.015  C_r=2.0  probe_queries=2400  (2740s)
+  [h1] gist hub    probe_100_0.97 : emax=0.032±0.002  C_r=4.0  probe_queries=2400  (3694s)
+  [h1] gist random probe_20_0.95  : emax=0.030±0.011  C_r=0.3  probe_queries=480  (4364s)
+  [h1] gist random probe_20_0.90  : emax=0.035±0.003  C_r=0.0  probe_queries=480  (4960s)
+  [h1] gist random probe_100_0.95 : emax=0.037±0.002  C_r=0.0  probe_queries=2400  (5668s)
+  [h1] gist random probe_100_0.90 : emax=0.037±0.001  C_r=0.0  probe_queries=2400  (6447s)
+  [h1] gist random probe_100_0.97 : emax=0.026±0.007  C_r=0.7  probe_queries=2400  (7173s)
+===== h1 요약 (비교: e2 재조준 hub — fixed10 0.033/7, fixed20 0.097/3, mass30 0.024/6, mass15 0.012/12 ; random — fixed20 0.012/3, mass30 0.013/2) =====
+  hub    probe_20_0.95   C_r=3.0 emax=0.075 probe_q=480
+  hub    probe_20_0.90   C_r=2.0 emax=0.162 probe_q=480
+  hub    probe_100_0.95  C_r=3.0 emax=0.062 probe_q=2400
+  hub    probe_100_0.90  C_r=2.0 emax=0.113 probe_q=2400
+  hub    probe_100_0.97  C_r=4.0 emax=0.032 probe_q=2400
+  random probe_20_0.95   C_r=0.3 emax=0.030 probe_q=480
+  random probe_20_0.90   C_r=0.0 emax=0.035 probe_q=480
+  random probe_100_0.95  C_r=0.0 emax=0.037 probe_q=2400
+  random probe_100_0.90  C_r=0.0 emax=0.037 probe_q=2400
+  random probe_100_0.97  C_r=0.7 emax=0.026 probe_q=2400
+[done] 7173s

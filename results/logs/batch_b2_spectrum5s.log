@@ -1,0 +1,72 @@
+  [sift] seed0 orders: adapt 1s / trav 2s / kcore 6s
+    [sift] seed0 [random   ] f_c=0.9169861431870434
+    [sift] seed0 [hub      ] f_c=0.7845375722541357
+    [sift] seed0 [adaptive ] f_c=0.6604397204426142
+    [sift] seed0 [traversal] f_c=None
+    [sift] seed0 [kcore    ] f_c=0.8376506024093664
+  [sift] seed1 orders: adapt 1s / trav 2s / kcore 6s
+    [sift] seed1 [random   ] f_c=0.9182692307692015
+    [sift] seed1 [hub      ] f_c=0.7978260869561549
+    [sift] seed1 [adaptive ] f_c=0.6592927631578794
+    [sift] seed1 [traversal] f_c=0.9391342756181671
+    [sift] seed1 [kcore    ] f_c=0.8319444444441486
+  [sift] seed2 orders: adapt 1s / trav 2s / kcore 7s
+    [sift] seed2 [random   ] f_c=0.9170601851851615
+    [sift] seed2 [hub      ] f_c=0.7831797235020748
+    [sift] seed2 [adaptive ] f_c=0.660392798690654
+    [sift] seed2 [traversal] f_c=0.9448242187497373
+    [sift] seed2 [kcore    ] f_c=0.8189090909088846
+  [sift] seed3 orders: adapt 1s / trav 2s / kcore 6s
+    [sift] seed3 [random   ] f_c=0.9190752905507543
+    [sift] seed3 [hub      ] f_c=0.7840155945417114
+    [sift] seed3 [adaptive ] f_c=0.6604214780600282
+    [sift] seed3 [traversal] f_c=0.9446078431369924
+    [sift] seed3 [kcore    ] f_c=0.8248263888886302
+  [sift] seed4 orders: adapt 1s / trav 2s / kcore 6s
+    [sift] seed4 [random   ] f_c=0.9250776880049253
+    [sift] seed4 [hub      ] f_c=0.7822580645159339
+    [sift] seed4 [adaptive ] f_c=0.6600112485939089
+    [sift] seed4 [traversal] f_c=0.9403370786514135
+    [sift] seed4 [kcore    ] f_c=0.8369444444441365
+  [gist] seed0 orders: adapt 0s / trav 3s / kcore 4s
+    [gist] seed0 [random   ] f_c=0.9127067254685567
+    [gist] seed0 [hub      ] f_c=0.37570564516113486
+    [gist] seed0 [adaptive ] f_c=0.36004366812223787
+    [gist] seed0 [traversal] f_c=0.5689285714283686
+    [gist] seed0 [kcore    ] f_c=0.42401812688799984
+  [gist] seed1 orders: adapt 0s / trav 3s / kcore 3s
+    [gist] seed1 [random   ] f_c=0.9105887276785537
+    [gist] seed1 [hub      ] f_c=0.37284394250499275
+    [gist] seed1 [adaptive ] f_c=0.3579452852153389
+    [gist] seed1 [traversal] f_c=0.5743174061430958
+    [gist] seed1 [kcore    ] f_c=0.41172480620141405
+  [gist] seed2 orders: adapt 0s / trav 3s / kcore 3s
+    [gist] seed2 [random   ] f_c=0.9111421725239439
+    [gist] seed2 [hub      ] f_c=0.37360215053748214
+    [gist] seed2 [adaptive ] f_c=0.3623850574712216
+    [gist] seed2 [traversal] f_c=0.5657544378696827
+    [gist] seed2 [kcore    ] f_c=0.42138989169651925
+  [gist] seed3 orders: adapt 0s / trav 3s / kcore 4s
+    [gist] seed3 [random   ] f_c=0.9116677135678172
+    [gist] seed3 [hub      ] f_c=0.37544091710744915
+    [gist] seed3 [adaptive ] f_c=0.3569567627494225
+    [gist] seed3 [traversal] f_c=0.5777881040889095
+    [gist] seed3 [kcore    ] f_c=0.42492897727251483
+  [gist] seed4 orders: adapt 0s / trav 3s / kcore 4s
+    [gist] seed4 [random   ] f_c=0.9101530311948025
+    [gist] seed4 [hub      ] f_c=0.37538684719521054
+    [gist] seed4 [adaptive ] f_c=0.3603419282510863
+    [gist] seed4 [traversal] f_c=0.5728365384613189
+    [gist] seed4 [kcore    ] f_c=0.42292387543228804
+
+===== attack 스펙트럼 (f_c, mean±std, 3 seeds) =====
+     ds |        random |           hub |      adaptive |     traversal |         kcore
+   sift |   0.919±0.003 |   0.786±0.006 |   0.660±0.000 |   0.942±0.003 |   0.830±0.007
+   gist |   0.911±0.001 |   0.375±0.001 |   0.360±0.002 |   0.572±0.004 |   0.421±0.005
+
+  해석 가이드:
+  - adaptive < hub      : 적응형이 더 셈(고전 결과 재현) -> 얼마나?
+  - traversal ~ hub     : in-degree = 라우팅 중심성의 싼 프록시 (트리거 정당화)
+  - traversal << hub    : in-degree 는 취약성의 하한 (더 강한 공격 존재 경고)
+
+[done] 1430.7s -> ../results/attack_spectrum.npz

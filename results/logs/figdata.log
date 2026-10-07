@@ -1,0 +1,22 @@
+nohup: 입력 무시
+[1] indeg arrays ...
+  hnsw_sift: hubness=4.2
+  hnsw_glove: hubness=5.9
+  hnsw_gist: hubness=25.4
+  mrng_sift: hubness=5.2
+  mrng_gist: hubness=48.0
+[2] GIST viz subgraph ...
+  nodes=3000 edges=38707 clusters=8
+[3] trigger trajectories ...
+  [never] min=0.009 rebuilds=0
+  [fixed20] min=0.927 rebuilds=4
+  [hm30] min=0.979 rebuilds=4
+  [hm15] min=0.991 rebuilds=9
+[4] SIFT 5-mode curves ...
+  [random] baseline=0.999 last=0.017
+  [hub] baseline=0.999 last=0.003
+  [antihub] baseline=0.999 last=0.853
+  [relevance] baseline=0.999 last=0.091
+  [clustered] baseline=0.999 last=0.961
+
+[done] 664.4s -> figdata_{indeg,subgraph,trigger_traj,curves5}.npz
